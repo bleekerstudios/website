@@ -12,8 +12,8 @@ const CallOut = () => {
           <SectionSentence title="Don't know where to begin? No worries, send us your problem or check out our FAQ" />
         </div>
         <div className="flex flex-col gap-5 w-full sm:w-fit sm:flex-row lg:w-full lg:justify-end">
-          <ButtonLink value="Send Quote" href="/quote" />
-          <ButtonLink value="Ask Us" color="white" style="light" href="/faq" />
+          <ButtonLink value="Let's Chat" href="/quote" />
+          <ButtonLink value="FAQ" color="white" style="light" href="/faq" />
         </div>
       </section>
       <LineDivider />
