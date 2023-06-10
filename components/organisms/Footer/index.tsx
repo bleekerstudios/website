@@ -32,9 +32,10 @@ const Footer = () => {
               <Text value="SERVICES" textStyle="FooterLinkGroupTitle" />
               <div className="space-y-[10px]">
 
+              <NavLink value="IT Implementation & Support" href="/service/detail" />
                 <NavLink value="Media" href="/service/detail" />
                 <NavLink value="Development" href="/service/detail" />
-                <NavLink value="IT Implementation & Support" href="/service/detail" />
+                
                 <NavLink value="Education & Tech Stack Audit" href="/service/detail" />
                 
                 
@@ -47,20 +48,22 @@ const Footer = () => {
                 <NavLink value="About" href="/about" />
                 <NavLink value="Contact" href="/contact" />
                 <NavLink value="Pricing" href="/pricing" />
-                <NavLink value="Send Quote" href="/quote" />
+                <NavLink value="Send Message" href="/quote" />
                 <NavLink value="Privacy Policy" href="/privacy-policy" />
                 <NavLink value="Term of Service" href="/term-of-service" />
-                <NavLink value="Jobs" href="/jobs" />
+                {/*<NavLink value="Jobs" href="/jobs" /> */}
                 <NavLink value="Blogs" href="/blog" />
+                
               </div>
             </div>
             <div className="space-y-5">
               <Text value="RESOURCES" textStyle="FooterLinkGroupTitle" />
               <div className="space-y-[10px]">
                 <NavLink value="Support" href="/support" />
-                <NavLink value="Documentation" href="/documentation" />
-                <NavLink value="License" href="/license" />
-                <NavLink value="Sitemap" href="/sitemap" />
+                {/* <NavLink value="Documentation" href="/documentation" /> */}
+                  <NavLink value="LinkedIn" href="/https://www.linkedin.com/company/bleekerstudios/" />
+                  {/* <NavLink value="Sitemap" href="" /> */} 
+                {/* <NavLink value="Sitemap" href="/sitemap" /> */}
               </div>
             </div>
           </div>

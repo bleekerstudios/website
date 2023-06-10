@@ -49,7 +49,7 @@ const Services = () => {
           <aside className="grid gap-12 place-items-center" data-aos="fade-up-left">
             <div className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left">
               <SectionSentence
-                badge="SOFTWARE/HARDWARE IMPLEMENTATION & IT SUPPORT"
+                badge="IT IMPLEMENTATION & SUPPORT"
                 title="Deploy new tools to streamline your workflows"
                 paragraph="We'll help integrate net-new tools into your existing processes"
               />
