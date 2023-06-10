@@ -22,9 +22,9 @@ const Home = () => {
         >
           <div className="w-10/12 md:w-8/12 text-center">
             <PageSentence
-              title="We Design. We Develop. We Ship. In The Same Day."
-              description="We are committed to not making clients wait. We will deliver the work as quickly as possible. Even on the same day. Even so, we do not reduce the quality of our work."
-              badge="CLIENT-DEVELOPMENT-DRIVEN"
+              title="Welcome"
+              description="Solving problems of all shapes & sizes"
+              badge="Bleeker Studios"
             />
           </div>
           <div className="flex flex-col gap-6 sm:flex-row w-full sm:w-fit">
@@ -41,22 +41,22 @@ const Home = () => {
         <section className="grid grid-cols-1 gap-5 md:grid-cols-3 mb-16">
           <div data-aos="fade-up">
             <FeatureCard
-              title="Design"
-              description="The project interface will be designed first, our favorite tool is Figma."
+              title="Project Scoping & Solution design"
+              description="We'll work to define your organization's current pains and recommend the best path forward"
               icon={<FiFigma />}
             />
           </div>
           <div data-aos="fade-up">
             <FeatureCard
-              title="Develop"
-              description="Transform design and write business logic here. Choose the technology you want."
+              title="Develop & Implement"
+              description="Build & deploy bespoke solutions"
               icon={<FiCode />}
             />
           </div>
           <div data-aos="fade-up">
             <FeatureCard
-              title="Ship"
-              description="After the work is complete, we will send the project and all its assets to you."
+              title="Support"
+              description="Educate and enable your team to ensure longterm success"
               icon={<FiBox />}
             />
           </div>
