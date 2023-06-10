@@ -47,7 +47,7 @@ const Quote = () => {
                 />
               </div>
               <TextAreaGroup label="Tell Us Your Problem" />
-              <Button value="Send Quote" />
+              <Button value="Send Message" />
             </div>
           </aside>
         </section>
