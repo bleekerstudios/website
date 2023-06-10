@@ -15,7 +15,6 @@ import {
   FiSmartphone,
 } from 'react-icons/fi'
 import SmallCardIcon from 'components/molecules/Card/SmallCardIcon'
-import { SiSalesforce } from 'react-icons/fa'
 import CardListIcon from 'components/molecules/Card/CardListIcon'
 import TextArrowLink from 'components/molecules/TextArrowLink'
 import IconListItem from 'components/molecules/IconListItem'
@@ -59,7 +58,7 @@ const Services = () => {
               <aside className="grid grid-cols-1 sm:grid-cols-2 gap-5 w-full">
                 <IconListItem icon={<FiCheckCircle />} value='Workstation Management Software' />
                 <IconListItem icon={<FiCheckCircle />} value='Mac/PC ' />
-                <IconListItem icon={<SiSalesforce />} value='Salesforce' />
+                <IconListItem icon={<FiCheckCircle />} value='Salesforce' />
                 <IconListItem icon={<FiCheckCircle />} value='Jira' />
                 <IconListItem icon={<FiCheckCircle />} value='Slack' />
                 <IconListItem icon={<FiCheckCircle />} value='Google Suite' />
