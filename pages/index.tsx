@@ -10,7 +10,7 @@ import TestimonialList from 'components/organisms/TestimonialList'
 import PageTemplate from 'components/templates/PageTemplate'
 import Image from 'next/image'
 import React from 'react'
-import { FiFigma, FiCode, FiBox } from 'react-icons/fi'
+import { FiFigma, FiCode, FiBox, FiTrendingUp, FiShare } from 'react-icons/fi'
 const Home = () => {
   return (
     <>
@@ -43,7 +43,7 @@ const Home = () => {
             <FeatureCard
               title="Architect"
               description="We'll work to understand your organizations largest roadblocks and challeges and recommend a solution that is built for you"
-              icon={<FiFigma />}
+              icon={<FiTrendingUp />}
             />
           </div>
           <div data-aos="fade-up">
@@ -57,7 +57,7 @@ const Home = () => {
             <FeatureCard
               title="Deploy & Educate"
               description="We'll build a tailored enablement plan to ensure your team understands their new solution, and is set up for success"
-              icon={<FiBox />}
+              icon={<FiShare />}
             />
           </div>
         </section>
