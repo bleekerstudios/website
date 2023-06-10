@@ -2,7 +2,6 @@ import NavBrand from 'components/atoms/NavBrand'
 import NavLink from 'components/atoms/NavLink'
 import Text from 'components/atoms/Text'
 import React from 'react'
-import { FiLinkedin } from 'react-icons/fi'
 
 const Footer = () => {
   return (
@@ -62,8 +61,7 @@ const Footer = () => {
               <div className="space-y-[10px]">
                {/*} <NavLink value="Support" href="/support" /> */}
                 {/* <NavLink value="Documentation" href="/documentation" /> */}
-                  <NavLink 
-                    IconListItem icon={<FiLinkedin />} value="LinkedIn" href="https://www.linkedin.com/company/bleekerstudios/" />
+                  <NavLink value="LinkedIn" href="https://www.linkedin.com/company/bleekerstudios/" />
                   <NavLink value="Instagram" href="https://www.instagram.com/bleeker.studios"/>
                   <NavLink value="Twitter" href="https://twitter.com/bleekerstudios/" />
                   {/* <NavLink value="Sitemap" href="" /> */} 
