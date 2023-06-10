@@ -12,7 +12,7 @@ const HowWeWork = () => {
         <div className="sm:w-10/12 md:w-8/12 lg:w-6/12 2xl:w-5/12 text-center" data-aos="zoom-in-up">
           <PageSentence
             badge="HOW WE WORK"
-            title="Bleeker Studios solution framework is a three step system that is built on listening to our partners needs and deploying fast solutions"
+            title="Our solution framework is a 3 step system built on: listening to our partners needs & deploying fast solutions"
           />
         </div>
       </section>
