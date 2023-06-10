@@ -40,7 +40,7 @@ const LogoList = () => {
         </div>
         <div className="">
           <Image
-            src={'/images/facebook-logo.svg'}
+            src={'/images/slack.svg'}
             width={120}
             height="36"
             alt="facebook logo"
