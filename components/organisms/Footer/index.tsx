@@ -61,7 +61,7 @@ const Footer = () => {
               <div className="space-y-[10px]">
                 <NavLink value="Support" href="/support" />
                 {/* <NavLink value="Documentation" href="/documentation" /> */}
-                  <NavLink value="LinkedIn" href="/https://www.linkedin.com/company/bleekerstudios/" />
+                  <NavLink value="LinkedIn" href="https://www.linkedin.com/company/bleekerstudios/" />
                   {/* <NavLink value="Sitemap" href="" /> */} 
                 {/* <NavLink value="Sitemap" href="/sitemap" /> */}
               </div>
