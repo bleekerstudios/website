@@ -38,7 +38,7 @@ const Services = () => {
           <aside className="w-full sm:w-10/12 md:w-8/12 lg:w-full" data-aos="fade-up-right">
             <figure className="w-full h-[545px] relative">
               <Image
-                src={'/images/blog-thumbnail-3.webp'}
+                src={'/images/blog-illustration.svg'}
                 layout="fill"
                 objectFit="fill"
                 alt='server maintenance'
