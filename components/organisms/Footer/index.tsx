@@ -16,7 +16,8 @@ const Footer = () => {
                 textStyle="SectionParagraph"
               />
               <Text
-                value={`Bleeker Studios Manhattan, NY`}
+                value={`Bleeker Studios`}
+                value={`Manhattan, NY`}
                 textStyle="SectionParagraph"
               />
             </div>
