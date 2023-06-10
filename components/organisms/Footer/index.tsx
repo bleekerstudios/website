@@ -33,13 +33,11 @@ const Footer = () => {
                   value="App Development"
                   href="/service/detail"
                 />
-                <NavLink value="Design" href="/service/detail" />
-                <NavLink value="Advertising" href="/service/detail" />
-                <NavLink value="Film" href="/service/detail" />
-                <NavLink value="IT Support" href="/service/detail" />
-                <NavLink value="Implementation" href="/service/detail" />
-                <NavLink value="Education" href="/service/detail" />
-                <NavLink value="Tech Stack Audit" href="/service/detail" />
+                <NavLink value="Media" href="/service/detail" />
+                <NavLink value="Development" href="/service/detail" />
+                <NavLink value="IT Implementation & Support" href="/service/detail" />
+                <NavLink value="Education & Tech Stack Audit" href="/service/detail" />
+                
                 
               
               </div>
