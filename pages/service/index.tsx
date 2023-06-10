@@ -47,8 +47,8 @@ const Services = () => {
             <div className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left">
               <SectionSentence
                 badge="SOFTWARE/HARDWARE IMPLEMENTATION & IT SUPPORT"
-                title="Deploy new solutions to streamline your workflows"
-                paragraph="Net-new solutions to make your teams life easier"
+                title="Deploy new tools to streamline your workflows"
+                paragraph="We'll help integrate net-new tools into your existing workflows"
               />
             </div>
             <div className="grid gap-6 w-full place-items-end md:w-8/12 lg:w-full">
@@ -64,7 +64,7 @@ const Services = () => {
                 <IconListItem icon={<FiCheckCircle />} value='Microsoft Office & Apps' />
                 <IconListItem icon={<FiCheckCircle />} value='ChatGPT & AI Tools' />
               </aside>
-              <TextArrowLink label="Service Detail" href="/service/detail" />
+               {/* <TextArrowLink label="Service Detail" href="/service/detail" /> */}
             </div>
           </aside>
         </section>
@@ -89,7 +89,7 @@ const Services = () => {
               <SectionSentence
                 badge="MEDIA"
                 title="Expand your digital footprint"
-                paragraph="Deliever best in class experiences that appeal to the masses"
+                paragraph="Deliever best in class content that appeal to the masses"
               />
             </div>
             <div className="grid gap-6 w-full place-items-end md:w-8/12 lg:w-full">
@@ -115,7 +115,7 @@ const Services = () => {
                   icon={<FiLayout />}
                 />
               </aside>
-              <TextArrowLink label="Service Detail" href="/service/detail" />
+               {/* <TextArrowLink label="Service Detail" href="/service/detail" /> */}
             </div>
           </aside>
          
@@ -126,7 +126,7 @@ const Services = () => {
             <div className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left">
               <SectionSentence
                 badge="DEVELOPMENT"
-                title="We simplify the creation and deployment of appslications"
+                title="We simplify the creation and deployment of applications"
                 paragraph="We'll work with you to design an application that will scale as your business grows"
               />
             </div>
@@ -143,7 +143,7 @@ const Services = () => {
                 <CardListIcon icon={<FiGlobe />} title="Web Development" />
                 <CardListIcon icon={<FiGlobe />} title="UX Design" />
               </aside>
-              <TextArrowLink label="Service Detail" href="/service/detail" />
+               {/* <TextArrowLink label="Service Detail" href="/service/detail" /> */}
             </div>
           </aside>
           <aside className="w-full sm:w-10/12 md:w-8/12 lg:w-full" data-aos="fade-up-left">
@@ -187,7 +187,7 @@ const Services = () => {
                 <IconListItem icon={<FiRefreshCcw />} value='Audit & Consolidation' />
                 <IconListItem icon={<FiCheckCircle />} value='Cost-Benefit Analysis' />
               </aside>
-              <TextArrowLink label="Service Detail" href="/service/detail" />
+              {/* <TextArrowLink label="Service Detail" href="/service/detail" /> */}
             </div>
           </aside>
         </section>
