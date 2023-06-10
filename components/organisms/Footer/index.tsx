@@ -17,6 +17,11 @@ const Footer = () => {
               />
               <Text
                 value={`Bleeker Studios`}
+                
+                textStyle="SectionParagraph"
+              />
+              <Text
+
                 value={`Manhattan, NY`}
                 textStyle="SectionParagraph"
               />
