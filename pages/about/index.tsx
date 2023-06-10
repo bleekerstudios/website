@@ -59,53 +59,19 @@ const About = () => {
           data-aos="zoom-in-up"
         >
           <SectionSentence
-            badge="OUR TEAMS"
-            title="Meet the team! All creative people are here"
+            badge="OUR TEAM"
+            title=""
           />
         </div>
         <div className="w-full grid gap-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           <div data-aos="fade-up">
             <TeamCard
-              imageSrc="/images/team-1.webp"
+              imageSrc="/images/peace.jpeg"
               job="Founder"
-              name="Albert Flores"
+              name="Sofi Cherif"
             />
           </div>
-          <div data-aos="fade-up">
-            <TeamCard
-              imageSrc="/images/team-2.webp"
-              job="Chief Technology Officer"
-              name="Devon Lane"
-            />
-          </div>
-          <div data-aos="fade-up">
-            <TeamCard
-              imageSrc="/images/team-3.webp"
-              job="UI Designer"
-              name="Sofi"
-            />
-          </div>
-          <div data-aos="fade-up">
-            <TeamCard
-              imageSrc="/images/team-4.webp"
-              job="Software Engineer"
-              name="Sofi"
-            />
-          </div>
-          <div data-aos="fade-up">
-            <TeamCard
-              imageSrc="/images/team-5.webp"
-              job="System Analyst"
-              name="Sofi"
-            />
-          </div>
-          <div data-aos="fade-up">
-            <TeamCard
-              imageSrc="/images/team-6.webp"
-              job="Project Manager"
-              name="Sofi"
-            />
-          </div>
+          
         </div>
       </section>
     </PageTemplate>
