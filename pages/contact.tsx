@@ -22,12 +22,12 @@ const Contact = () => {
             <div className="space-y-6">
               <IconListItem
                 label="Phone"
-                value="+62 1234 8921"
+                value="917.232.7121"
                 icon={<FiPhoneCall />}
               />
               <IconListItem
                 label="Email"
-                value="support@collosal.tld"
+                value="sofi@bleekerstudios.com"
                 icon={<FiMail />}
               />
             </div>

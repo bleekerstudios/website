@@ -31,7 +31,7 @@ const About = () => {
           <PageSentence
             badge="ABOUT"
             title="We are creative, smart and hardworking people"
-            description={`Several creative people gather in the same place - that's Collosal. We collaborate to produce the best results, loved by clients and comfortable for users. Here we maintain togetherness even though with different backgrounds, all the people here are already experts in their respective fields.`}
+            description={`Sofi Cherif`}
           />
         </aside>
       </section>
@@ -43,7 +43,7 @@ const About = () => {
         >
           <SectionSentence
             badge="STATISTICS"
-            title="In 3 years we reached 8 countries, 193 clients and earning $100k USD"
+            title="Sofi Cherif testing"
           />
         </div>
         <div className="w-full grid gap-14">
@@ -82,28 +82,28 @@ const About = () => {
             <TeamCard
               imageSrc="/images/team-3.webp"
               job="UI Designer"
-              name="Darrell Steward"
+              name="Sofi"
             />
           </div>
           <div data-aos="fade-up">
             <TeamCard
               imageSrc="/images/team-4.webp"
               job="Software Engineer"
-              name="Marvin McKinney"
+              name="Sofi"
             />
           </div>
           <div data-aos="fade-up">
             <TeamCard
               imageSrc="/images/team-5.webp"
               job="System Analyst"
-              name="Floyd Miles"
+              name="Sofi"
             />
           </div>
           <div data-aos="fade-up">
             <TeamCard
               imageSrc="/images/team-6.webp"
               job="Project Manager"
-              name="Annette Black"
+              name="Sofi"
             />
           </div>
         </div>
