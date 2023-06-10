@@ -16,7 +16,7 @@ const LogoList = () => {
         </div>
         <div className="">
           <Image
-            src={'/images/Salesforce.svg'}
+            src={'/images/salesforce.svg'}
             width={120}
             height="36"
             alt="forbes logo"
