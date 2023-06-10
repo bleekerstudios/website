@@ -45,9 +45,9 @@ const Services = () => {
           <aside className="grid gap-12 place-items-center" data-aos="fade-up-left">
             <div className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left">
               <SectionSentence
-                badge="Media"
-                title="Don't let your idea get caught by others, design a prototype for your idea"
-                paragraph="Delegate your ideas as quickly as possible, create beautiful designs and vivid prototypes."
+                badge="MEDIA"
+                title="Expand your digital footprint"
+                paragraph="Deliever best in class experiences that appeal to the masses"
               />
             </div>
             <div className="grid gap-6 w-full place-items-end md:w-8/12 lg:w-full">
@@ -79,43 +79,8 @@ const Services = () => {
             <div className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left">
               <SectionSentence
                 badge="DEVELOPMENT"
-                title="Create solutions to repetitive problems, design applications and access anywhere!"
-                paragraph="Just tell us your repetitive problem or the primitive method used today, and we will create a digital solution."
-              />
-            </div>
-            <div className="grid gap-6 w-full place-items-end md:w-8/12 lg:w-full">
-              <aside className="w-full grid grid-cols-1 gap-5">
-                <CardListIcon
-                  icon={<FiSmartphone />}
-                  title="Mobile App Development"
-                />
-                <CardListIcon
-                  icon={<FiMonitor />}
-                  title="Desktop App Development"
-                />
-                <CardListIcon icon={<FiGlobe />} title="Web Development" />
-              </aside>
-              <TextArrowLink label="Service Detail" href="/service/detail" />
-            </div>
-          </aside>
-          <aside className="w-full sm:w-10/12 md:w-8/12 lg:w-full" data-aos="fade-up-left">
-            <figure className="w-full h-[450px] relative">
-              <Image
-                src={'/images/development-illustration.svg'}
-                layout="fill"
-                objectFit="fill"
-                alt='IDE for development'
-              />
-            </figure>
-          </aside>
-        </section>
-        <section className="grid grid-cols-1 place-items-center gap-8 lg:grid-cols-2 lg:gap-5 ">
-          <aside className="grid gap-12 place-items-center" data-aos="fade-up-right">
-            <div className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left">
-              <SectionSentence
-                badge="DEVELOPMENT"
-                title="Create solutions to repetitive problems, design applications and access anywhere!"
-                paragraph="Just tell us your repetitive problem or the primitive method used today, and we will create a digital solution."
+                title="We simplify the creation and deployment of appslications"
+                paragraph="We'll work with you to design an application that will scale as your business grows"
               />
             </div>
             <div className="grid gap-6 w-full place-items-end md:w-8/12 lg:w-full">
@@ -159,9 +124,9 @@ const Services = () => {
           <aside className="grid gap-12 place-items-center" data-aos="fade-up-left">
             <div className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left">
               <SectionSentence
-                badge=" IT Implementation & Support"
-                title="Think of your server as your own child, taking care of it every day"
-                paragraph="We will back up your servers every day, clean them every week, upgrade them when there is an update."
+                badge=" IT IMPLEMENTATION & SUPPORT"
+                title="Deploy new solutions to streamline your workflows"
+                paragraph="Net-new solutions to make your teams life easier"
               />
             </div>
             <div className="grid gap-6 w-full place-items-end md:w-8/12 lg:w-full">
@@ -196,8 +161,8 @@ const Services = () => {
           <aside className="grid gap-12 place-items-center" data-aos="fade-up-left">
             <div className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left">
               <SectionSentence
-                badge="Education & Tech Stack Audit"
-                title="Deep dive into what costs are mission critical"
+                badge="EDUCATION & TECH STACK AUDIT"
+                title="Upskill your team and understand your mission critical tools"
                 paragraph="Build an understanding into which software provides the highest ROI"
               />
             </div>
