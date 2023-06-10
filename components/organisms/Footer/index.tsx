@@ -35,7 +35,7 @@ const Footer = () => {
               <NavLink value="IT Implementation & Support" href="/service/detail" />
                 <NavLink value="Media" href="/service/detail" />
                 <NavLink value="Development" href="/service/detail" />
-                
+              
                 <NavLink value="Education & Tech Stack Audit" href="/service/detail" />
                 
                 
@@ -57,11 +57,13 @@ const Footer = () => {
               </div>
             </div>
             <div className="space-y-5">
-              <Text value="RESOURCES" textStyle="FooterLinkGroupTitle" />
+              <Text value="SOCIALS" textStyle="FooterLinkGroupTitle" />
               <div className="space-y-[10px]">
-                <NavLink value="Support" href="/support" />
+               {/*} <NavLink value="Support" href="/support" /> */}
                 {/* <NavLink value="Documentation" href="/documentation" /> */}
                   <NavLink value="LinkedIn" href="https://www.linkedin.com/company/bleekerstudios/" />
+                  <NavLink value="Instagram" href="https://www.instagram.com/bleeker.studios"/>
+                  <NavLink value="Twitter" href="https://www.linkedin.com/company/bleekerstudios/" />
                   {/* <NavLink value="Sitemap" href="" /> */} 
                 {/* <NavLink value="Sitemap" href="/sitemap" /> */}
               </div>
