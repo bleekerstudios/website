@@ -14,7 +14,7 @@ import { FiFigma, FiCode, FiBox } from 'react-icons/fi'
 const Home = () => {
   return (
     <>
-      <PageTemplate title="Home - Collosal">
+      <PageTemplate title="Home - Bleeker Studios">
         {/* Banner Section */}
         <section
           className="flex flex-col gap-10 items-center"
@@ -64,6 +64,7 @@ const Home = () => {
         {/* Logo List */}
         <LogoList />
         {/* How We Work */}
+        {/* How We Work 
         <section className="grid grid-cols-1 gap-6 sm:gap-8 place-items-center lg:grid-cols-2">
           <aside className="w-full h-[400px] relative" data-aos="fade-right">
             <Image
@@ -83,8 +84,9 @@ const Home = () => {
               badge="HOW WE WORK"
             />
           </aside>
-        </section>
+        </section> */}
         {/* Our Teams */}
+        {/* 
         <section className="grid grid-cols-1 gap-6 sm:gap-8 place-items-center lg:grid-cols-2">
           <aside className="text-center sm:w-10/12 lg:text-left lg:w-full">
             <div className="space-y-12" data-aos="fade-right">
@@ -114,8 +116,9 @@ const Home = () => {
             />
           </aside>
         </section>
-        <LineDivider />
+        <LineDivider /> Our Teams */}
         {/* Our Projects */}
+        {/* 
         <section className="flex flex-col gap-16 items-center">
           <div
             className="text-center sm:w-10/12 md:w-8/12 lg:w-6/12"
@@ -141,8 +144,9 @@ const Home = () => {
               />
             </div>
           </div>
-        </section>
+        </section> Our Projects */}
         {/* Prices */}
+        {/* 
         <section className="flex flex-col gap-16 items-center">
           <div
             className="text-center sm:w-10/12 md:w-8/12 lg:w-6/12"
@@ -192,7 +196,9 @@ const Home = () => {
             </div>
           </div>
         </section>
+        Prices */}
         {/* Testimonial */}
+         {/* 
         <section className="flex flex-col gap-16 items-center">
           <div className="text-center sm:w-10/12 md:w-8/12 lg:w-6/12" data-aos="zoom-in-up">
             <SectionSentence
@@ -204,6 +210,7 @@ const Home = () => {
             <TestimonialList />
           </div>
         </section>
+        Testimonial */}
       </PageTemplate>
     </>
   )
