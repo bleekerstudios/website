@@ -17,7 +17,7 @@ const Quote = () => {
               <PageSentence
                 title="Tell us about your problem and how we can help"
                 description="We are happy to help you, tell us what is the problem with your company, and we are ready to answer these problems. It usually takes a few minutes for us to respond."
-                badge="SEND QUOTE"
+                badge="CONNECT WITH US"
               />
             </div>
             <div className="w-fit">
