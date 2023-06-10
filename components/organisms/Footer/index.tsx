@@ -16,7 +16,7 @@ const Footer = () => {
                 textStyle="SectionParagraph"
               />
               <Text
-                value={`Design By Collosal LLC`}
+                value={`Bleeker Studios`}
                 textStyle="SectionParagraph"
               />
             </div>
@@ -33,10 +33,15 @@ const Footer = () => {
                   value="App Development"
                   href="/service/detail"
                 />
-                <NavLink value="UI Design" href="/service/detail" />
-                <NavLink value="Consultation" href="/service/detail" />
-                <NavLink value="Maintenance" href="/service/detail" />
-                <NavLink value="Pricing" href="/pricing" />
+                <NavLink value="Design" href="/service/detail" />
+                <NavLink value="Advertising" href="/service/detail" />
+                <NavLink value="Film" href="/service/detail" />
+                <NavLink value="IT Support" href="/service/detail" />
+                <NavLink value="Implementation" href="/service/detail" />
+                <NavLink value="Education" href="/service/detail" />
+                <NavLink value="Tech Stack Audit" href="/service/detail" />
+                
+              
               </div>
             </div>
             <div className="space-y-5">
@@ -44,6 +49,7 @@ const Footer = () => {
               <div className="space-y-[10px]">
                 <NavLink value="About" href="/about" />
                 <NavLink value="Contact" href="/contact" />
+                <NavLink value="Pricing" href="/pricing" />
                 <NavLink value="Send Quote" href="/quote" />
                 <NavLink value="Privacy Policy" href="/privacy-policy" />
                 <NavLink value="Term of Service" href="/term-of-service" />

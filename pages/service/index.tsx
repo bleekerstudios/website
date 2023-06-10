@@ -100,6 +100,75 @@ const Services = () => {
               <TextArrowLink label="XXXX" href="/service/detail" />
             </div>
           </aside>
+          <aside className="w-full sm:w-10/12 md:w-8/12 lg:w-full" data-aos="fade-up-right">
+            <figure className="w-full h-[315px] relative">
+              <Image
+                src={'/images/ui-design-illustration.svg'}
+                layout="fill"
+                objectFit="fill"
+                alt='UI Design'
+              />
+            </figure>
+          </aside>
+          <aside className="grid gap-12 place-items-center" data-aos="fade-up-left">
+            <div className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left">
+              <SectionSentence
+                badge="XXXXX"
+                title="XXXXXXXXXX"
+                paragraph="XXXXX"
+              />
+            </div>
+            <div className="grid gap-6 w-full place-items-end md:w-8/12 lg:w-full">
+              <aside className="w-full grid grid-cols-1 sm:grid-cols-2 gap-5">
+                <SmallCardIcon
+                  title="XXXXXX"
+                  description="XXXXXXX"
+                  icon={<FiLayout />}
+                />
+                <SmallCardIcon
+                  title="XXXX"
+                  description="XXXXX"
+                  icon={<FiLayout />}
+                />
+              </aside>
+              <TextArrowLink label="XXXX" href="/service/detail" />
+            </div>
+          </aside>
+        </section>
+        <section className="grid grid-cols-1 place-items-center gap-8 lg:grid-cols-2 lg:gap-5 ">
+          <aside className="grid gap-12 place-items-center" data-aos="fade-up-right">
+            <div className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left">
+              <SectionSentence
+                badge="DEVELOPMENT"
+                title="Create solutions to repetitive problems, design applications and access anywhere!"
+                paragraph="Just tell us your repetitive problem or the primitive method used today, and we will create a digital solution."
+              />
+            </div>
+            <div className="grid gap-6 w-full place-items-end md:w-8/12 lg:w-full">
+              <aside className="w-full grid grid-cols-1 gap-5">
+                <CardListIcon
+                  icon={<FiSmartphone />}
+                  title="Mobile App Development"
+                />
+                <CardListIcon
+                  icon={<FiMonitor />}
+                  title="Desktop App Development"
+                />
+                <CardListIcon icon={<FiGlobe />} title="Web Development" />
+              </aside>
+              <TextArrowLink label="Service Detail" href="/service/detail" />
+            </div>
+          </aside>
+          <aside className="w-full sm:w-10/12 md:w-8/12 lg:w-full" data-aos="fade-up-left">
+            <figure className="w-full h-[450px] relative">
+              <Image
+                src={'/images/development-illustration.svg'}
+                layout="fill"
+                objectFit="fill"
+                alt='IDE for development'
+              />
+            </figure>
+          </aside>
         </section>
         <section className="grid grid-cols-1 place-items-center gap-8 lg:grid-cols-2 lg:gap-5 ">
           <aside className="grid gap-12 place-items-center" data-aos="fade-up-right">
