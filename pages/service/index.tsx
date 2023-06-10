@@ -67,7 +67,7 @@ const Services = () => {
                 <IconListItem icon={<FiCheckCircle />} value='Microsoft Office & Apps' />
                 <IconListItem icon={<FiCheckCircle />} value='ChatGPT & AI Tools' />
               </aside>
-               <TextArrowLink label="Can't find what you're looking for? Message us." href="/service/quote" /> 
+               <TextArrowLink label="Can't find what you're looking for? Message us." href="/quote" /> 
             </div>
           </aside>
         </section>
