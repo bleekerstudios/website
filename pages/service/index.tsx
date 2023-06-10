@@ -15,7 +15,7 @@ import {
   FiSmartphone,
 } from 'react-icons/fi'
 import SmallCardIcon from 'components/molecules/Card/SmallCardIcon'
-import { SiSalesforce } from 'react-icons/fa';
+import { SiSalesforce } from 'react-icons/fa'
 import CardListIcon from 'components/molecules/Card/CardListIcon'
 import TextArrowLink from 'components/molecules/TextArrowLink'
 import IconListItem from 'components/molecules/IconListItem'
