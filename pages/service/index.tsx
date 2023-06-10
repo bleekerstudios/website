@@ -6,6 +6,7 @@ import Image from 'next/image'
 import SectionSentence from 'components/molecules/SectionSentence'
 import {
   FiArrowUp,
+  FiCamera,
   FiCheckCircle,
   FiDownload,
   FiGlobe,
@@ -67,7 +68,7 @@ const Services = () => {
                 <IconListItem icon={<FiCheckCircle />} value='Microsoft Office & Apps' />
                 <IconListItem icon={<FiCheckCircle />} value='ChatGPT & AI Tools' />
               </aside>
-               <TextArrowLink label="Can't find what you're looking for? Message us." href="/quote" /> 
+               <TextArrowLink label="Can't find what you're looking for? Message us." href="/contact" /> 
             </div>
           </aside>
         </section>
@@ -105,17 +106,17 @@ const Services = () => {
                 <SmallCardIcon
                   title="Advertising"
                   description="Promotional Products"
-                  icon={<FiLayout />}
+                  icon={<FiArrowUp />}
                 />
                  <SmallCardIcon
                   title="Film"
                   description="Promotional Products"
-                  icon={<FiLayout />}
+                  icon={<FiCamera />}
                 />
                 <SmallCardIcon
                   title="Social Media"
                   description="Promotional Products"
-                  icon={<FiLayout />}
+                  icon={<FiSmartphone />}
                 />
               </aside>
                {/* <TextArrowLink label="Service Detail" href="/service/detail" /> */}
