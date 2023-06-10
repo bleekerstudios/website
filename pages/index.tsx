@@ -56,7 +56,7 @@ const Home = () => {
           <div data-aos="fade-up">
             <FeatureCard
               title="Deploy & Educate"
-              description="We'll build tailored enablement plan to ensure your team understands their new solution and is set up for success"
+              description="We'll build a tailored enablement plan to ensure your team understands their new solution, and is set up for success"
               icon={<FiBox />}
             />
           </div>
