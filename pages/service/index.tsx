@@ -38,14 +38,14 @@ const Services = () => {
                 src={'/images/ui-design-illustration.svg'}
                 layout="fill"
                 objectFit="fill"
-                alt='UI Design'
+                alt='Media'
               />
             </figure>
           </aside>
           <aside className="grid gap-12 place-items-center" data-aos="fade-up-left">
             <div className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left">
               <SectionSentence
-                badge="UI DESIGN"
+                badge="Media"
                 title="Don't let your idea get caught by others, design a prototype for your idea"
                 paragraph="Delegate your ideas as quickly as possible, create beautiful designs and vivid prototypes."
               />
@@ -53,87 +53,26 @@ const Services = () => {
             <div className="grid gap-6 w-full place-items-end md:w-8/12 lg:w-full">
               <aside className="w-full grid grid-cols-1 sm:grid-cols-2 gap-5">
                 <SmallCardIcon
-                  title="Beautiful Design"
+                  title="Design"
                   description="Create a modern design for your idea."
                   icon={<FiLayout />}
                 />
                 <SmallCardIcon
-                  title="Prototype"
-                  description="Create vivid prototypes for your designs."
+                  title="Advertising"
+                  description="Promotional Products"
+                  icon={<FiLayout />}
+                />
+                 <SmallCardIcon
+                  title="Film"
+                  description="Promotional Products"
                   icon={<FiLayout />}
                 />
               </aside>
               <TextArrowLink label="Service Detail" href="/service/detail" />
             </div>
           </aside>
-          <aside className="w-full sm:w-10/12 md:w-8/12 lg:w-full" data-aos="fade-up-right">
-            <figure className="w-full h-[315px] relative">
-              <Image
-                src={'/images/ui-design-illustration.svg'}
-                layout="fill"
-                objectFit="fill"
-                alt='UI Design'
-              />
-            </figure>
-          </aside>
-          <aside className="grid gap-12 place-items-center" data-aos="fade-up-left">
-            <div className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left">
-              <SectionSentence
-                badge="XXXXX"
-                title="XXXXXXXXXX"
-                paragraph="XXXXX"
-              />
-            </div>
-            <div className="grid gap-6 w-full place-items-end md:w-8/12 lg:w-full">
-              <aside className="w-full grid grid-cols-1 sm:grid-cols-2 gap-5">
-                <SmallCardIcon
-                  title="XXXXXX"
-                  description="XXXXXXX"
-                  icon={<FiLayout />}
-                />
-                <SmallCardIcon
-                  title="XXXX"
-                  description="XXXXX"
-                  icon={<FiLayout />}
-                />
-              </aside>
-              <TextArrowLink label="XXXX" href="/service/detail" />
-            </div>
-          </aside>
-          <aside className="w-full sm:w-10/12 md:w-8/12 lg:w-full" data-aos="fade-up-right">
-            <figure className="w-full h-[315px] relative">
-              <Image
-                src={'/images/ui-design-illustration.svg'}
-                layout="fill"
-                objectFit="fill"
-                alt='UI Design'
-              />
-            </figure>
-          </aside>
-          <aside className="grid gap-12 place-items-center" data-aos="fade-up-left">
-            <div className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left">
-              <SectionSentence
-                badge="XXXXX"
-                title="XXXXXXXXXX"
-                paragraph="XXXXX"
-              />
-            </div>
-            <div className="grid gap-6 w-full place-items-end md:w-8/12 lg:w-full">
-              <aside className="w-full grid grid-cols-1 sm:grid-cols-2 gap-5">
-                <SmallCardIcon
-                  title="XXXXXX"
-                  description="XXXXXXX"
-                  icon={<FiLayout />}
-                />
-                <SmallCardIcon
-                  title="XXXX"
-                  description="XXXXX"
-                  icon={<FiLayout />}
-                />
-              </aside>
-              <TextArrowLink label="XXXX" href="/service/detail" />
-            </div>
-          </aside>
+         
+         
         </section>
         <section className="grid grid-cols-1 place-items-center gap-8 lg:grid-cols-2 lg:gap-5 ">
           <aside className="grid gap-12 place-items-center" data-aos="fade-up-right">
@@ -190,6 +129,7 @@ const Services = () => {
                   title="Desktop App Development"
                 />
                 <CardListIcon icon={<FiGlobe />} title="Web Development" />
+                <CardListIcon icon={<FiGlobe />} title="UX Design" />
               </aside>
               <TextArrowLink label="Service Detail" href="/service/detail" />
             </div>
@@ -219,17 +159,56 @@ const Services = () => {
           <aside className="grid gap-12 place-items-center" data-aos="fade-up-left">
             <div className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left">
               <SectionSentence
-                badge="MAINTENANCE"
+                badge=" IT Implementation & Support"
                 title="Think of your server as your own child, taking care of it every day"
                 paragraph="We will back up your servers every day, clean them every week, upgrade them when there is an update."
               />
             </div>
             <div className="grid gap-6 w-full place-items-end md:w-8/12 lg:w-full">
               <aside className="grid grid-cols-1 sm:grid-cols-2 gap-5 w-full">
-                <IconListItem icon={<FiDownload />} value='Back up every day' />
-                <IconListItem icon={<FiArrowUp />} value='Upgrade' />
-                <IconListItem icon={<FiRefreshCcw />} value='Cleaning every week' />
-                <IconListItem icon={<FiCheckCircle />} value='Fixing Error' />
+                <IconListItem icon={<FiDownload />} value='Workstation Management Software' />
+                <IconListItem icon={<FiArrowUp />} value='Mac/PC ' />
+                <IconListItem icon={<FiRefreshCcw />} value='Salesforce' />
+                <IconListItem icon={<FiCheckCircle />} value='Jira' />
+                <IconListItem icon={<FiCheckCircle />} value='Slack' />
+                <IconListItem icon={<FiCheckCircle />} value='Google Suite' />
+                <IconListItem icon={<FiCheckCircle />} value='Software Configuration' />
+                <IconListItem icon={<FiCheckCircle />} value='Content Management Systems' />
+                <IconListItem icon={<FiCheckCircle />} value='Microsoft Office & Apps' />
+                <IconListItem icon={<FiCheckCircle />} value='ChatGPT & AI Tools' />
+              </aside>
+              <TextArrowLink label="Service Detail" href="/service/detail" />
+            </div>
+          </aside>
+        </section>
+      
+        <section className="grid grid-cols-1 place-items-center gap-8 lg:grid-cols-2 lg:gap-5 ">
+          <aside className="w-full sm:w-10/12 md:w-8/12 lg:w-full" data-aos="fade-up-right">
+            <figure className="w-full h-[545px] relative">
+              <Image
+                src={'/images/maintenance-illustration.svg'}
+                layout="fill"
+                objectFit="fill"
+                alt='server maintenance'
+              />
+            </figure>
+          </aside>
+          <aside className="grid gap-12 place-items-center" data-aos="fade-up-left">
+            <div className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left">
+              <SectionSentence
+                badge="Education & Tech Stack Audit"
+                title="Deep dive into what costs are mission critical"
+                paragraph="Build an understanding into which software provides the highest ROI"
+              />
+            </div>
+            <div className="grid gap-6 w-full place-items-end md:w-8/12 lg:w-full">
+              <aside className="grid grid-cols-1 sm:grid-cols-2 gap-5 w-full">
+              <IconListItem icon={<FiDownload />} value='Software Training' />
+              <IconListItem icon={<FiDownload />} value='Technical Enablement' />
+                <IconListItem icon={<FiDownload />} value='Software Sale Negotation' />
+                <IconListItem icon={<FiArrowUp />} value='Software Evaluation' />
+                <IconListItem icon={<FiRefreshCcw />} value='Audit & Consolidation' />
+                <IconListItem icon={<FiCheckCircle />} value='Cost-Benefit Analysis' />
               </aside>
               <TextArrowLink label="Service Detail" href="/service/detail" />
             </div>
