@@ -63,7 +63,7 @@ const Footer = () => {
                 {/* <NavLink value="Documentation" href="/documentation" /> */}
                   <NavLink value="LinkedIn" href="https://www.linkedin.com/company/bleekerstudios/" />
                   <NavLink value="Instagram" href="https://www.instagram.com/bleeker.studios"/>
-                  <NavLink value="Twitter" href="https://www.linkedin.com/company/bleekerstudios/" />
+                  <NavLink value="Twitter" href="https://twitter.com/bleekerstudios/" />
                   {/* <NavLink value="Sitemap" href="" /> */} 
                 {/* <NavLink value="Sitemap" href="/sitemap" /> */}
               </div>

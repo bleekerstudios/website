@@ -56,9 +56,9 @@ const Services = () => {
             </div>
             <div className="grid gap-6 w-full place-items-end md:w-8/12 lg:w-full">
               <aside className="grid grid-cols-1 sm:grid-cols-2 gap-5 w-full">
-                <IconListItem icon={<FiDownload />} value='Workstation Management Software' />
-                <IconListItem icon={<FiArrowUp />} value='Mac/PC ' />
-                <IconListItem icon={<FiRefreshCcw />} value='Salesforce' />
+                <IconListItem icon={<FiCheckCircle />} value='Workstation Management Software' />
+                <IconListItem icon={<FiCheckCircle />} value='Mac/PC ' />
+                <IconListItem icon={<FiCheckCircle />>} value='Salesforce' />
                 <IconListItem icon={<FiCheckCircle />} value='Jira' />
                 <IconListItem icon={<FiCheckCircle />} value='Slack' />
                 <IconListItem icon={<FiCheckCircle />} value='Google Suite' />
