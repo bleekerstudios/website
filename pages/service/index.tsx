@@ -48,7 +48,7 @@ const Services = () => {
               <SectionSentence
                 badge="SOFTWARE/HARDWARE IMPLEMENTATION & IT SUPPORT"
                 title="Deploy new tools to streamline your workflows"
-                paragraph="We'll help integrate net-new tools into your existing workflows"
+                paragraph="We'll help integrate net-new tools into your existing processes"
               />
             </div>
             <div className="grid gap-6 w-full place-items-end md:w-8/12 lg:w-full">
