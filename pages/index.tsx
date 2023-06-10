@@ -22,8 +22,8 @@ const Home = () => {
         >
           <div className="w-10/12 md:w-8/12 text-center">
             <PageSentence
-              title="Welcome"
-              description="Solving problems of all shapes & sizes"
+              title="Focused on solving your organization's largest roadblocks"
+              description=""
               badge="Bleeker Studios"
             />
           </div>
@@ -41,22 +41,22 @@ const Home = () => {
         <section className="grid grid-cols-1 gap-5 md:grid-cols-3 mb-16">
           <div data-aos="fade-up">
             <FeatureCard
-              title="Project Scoping & Solution design"
-              description="We'll work to define your organization's current pains and recommend the best path forward"
+              title="Architect"
+              description="We'll work to understand your organizations largest roadblocks and challeges and recommend a solution that is built for you"
               icon={<FiFigma />}
             />
           </div>
           <div data-aos="fade-up">
             <FeatureCard
-              title="Develop & Implement"
-              description="Build & deploy bespoke solutions"
+              title="Design, Develop + Integrate"
+              description="We personally oversee the project lifecycle. From inception to development, all the way to deployment"
               icon={<FiCode />}
             />
           </div>
           <div data-aos="fade-up">
             <FeatureCard
-              title="Support"
-              description="Educate and enable your team to ensure longterm success"
+              title="Deploy & Educate"
+              description="Enablement sessions to ensure your team is set up for success"
               icon={<FiBox />}
             />
           </div>
