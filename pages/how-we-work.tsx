@@ -31,18 +31,18 @@ const HowWeWork = () => {
         </aside>
         <aside className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left" data-aos="fade-up-left">
           <SectionSentence
-            badge="STEP 01"
-            title={`Let's talk about your company's problems first`}
-            paragraph={"After submitting the quote form, we will review the data, then we will contact you. You can discuss with our team regarding your problem and find a solution to that problem. <br> <br> In this step, you will discuss what application to build."}
+            badge="STEP 1"
+            title={`Architect`}
+            paragraph={"After learning about your organizations roadblocks & challenges. We will recommend a solution based on your specific requirements. Once aligned on a path forward, we will define the level of effort associated with your solution"}
           />
         </aside>
       </section>
       <section className="grid grid-cols-1 lg:grid-cols-2 place-items-center gap-8 lg:gap-5">
         <aside className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left" data-aos="fade-up-right">
           <SectionSentence
-            badge="STEP 02"
-            title={`Doing planning, design and development until everything is finished`}
-            paragraph="When everything is agreed upon, our team will make plans related to the application that will be created. Starting from analysis, design, to development. <br> <br> In this step, the application is 100% complete."
+            badge="STEP 2"
+            title={`Develop + Integrate`}
+            paragraph="In this phase we are all systems go. Heads down, laying brick by brick to build out and integrate your desired solution"
           />
         </aside>
         <aside className="w-full" data-aos="fade-up-left">
@@ -71,9 +71,9 @@ const HowWeWork = () => {
         </aside>
         <aside className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left" data-aos="fade-up-left">
           <SectionSentence
-            badge="STEP 03"
-            title={`The project is complete and we ship all the project assets, and access to the server`}
-            paragraph="We will be responsible for delivering all the project assets to you, don't worry. These assets include, design files, source code, server access, and so on. <br> <br> In this step, everything is done and the contract ends."
+            badge="STEP 3"
+            title={`Deploy & Educate `}
+            paragraph="Here is where we get to see the solution come to life. We will create a enablement plan to educate your team on best practices and stay on to support your team while they acclimate to the new tools & services"
           />
         </aside>
       </section>
