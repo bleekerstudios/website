@@ -66,6 +66,30 @@ const Services = () => {
               <TextArrowLink label="Service Detail" href="/service/detail" />
             </div>
           </aside>
+          <aside className="grid gap-12 place-items-center" data-aos="fade-up-left">
+            <div className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left">
+              <SectionSentence
+                badge="XXXXX"
+                title="XXXXXXXXXX"
+                paragraph="XXXXX"
+              />
+            </div>
+            <div className="grid gap-6 w-full place-items-end md:w-8/12 lg:w-full">
+              <aside className="w-full grid grid-cols-1 sm:grid-cols-2 gap-5">
+                <SmallCardIcon
+                  title="XXXXXX"
+                  description="XXXXXXX"
+                  icon={<FiLayout />}
+                />
+                <SmallCardIcon
+                  title="XXXX"
+                  description="XXXXX"
+                  icon={<FiLayout />}
+                />
+              </aside>
+              <TextArrowLink label="XXXX" href="/service/detail" />
+            </div>
+          </aside>
         </section>
         <section className="grid grid-cols-1 place-items-center gap-8 lg:grid-cols-2 lg:gap-5 ">
           <aside className="grid gap-12 place-items-center" data-aos="fade-up-right">

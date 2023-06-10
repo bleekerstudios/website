@@ -15,7 +15,7 @@ const Contact = () => {
           <aside className="w-full sm:w-10/12 md:w-8/12 grid grid-cols-1 gap-12 sm:place-items-center lg:w-full lg:place-items-start" data-aos="fade-up-right">
             <div className="sm:text-center lg:text-left">
               <PageSentence
-                title="We love receiving messages from you, we are waiting for it."
+                title="Looking forward to working with you"
                 badge="CONTACT"
               />
             </div>
