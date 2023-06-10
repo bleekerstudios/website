@@ -21,16 +21,58 @@ import IconListItem from 'components/molecules/IconListItem'
 const Services = () => {
   return (
     <>
-      <PageTemplate title='Service - Collosal'>
+      <PageTemplate title='Services - Bleeker Studios'>
         <section className="grid place-items-center" data-aos="zoom-in-up">
           <div className="text-center sm:w-10/12 md:w-8/12 lg:w-6/12">
             <PageSentence
               badge="SERVICES"
-              title="We are here to help solve your company's problems"
+              title="Overview of services we've implemented to solve our partners problems"
             />
           </div>
         </section>
         <LineDivider />
+
+        <section className="grid grid-cols-1 place-items-center gap-8 lg:grid-cols-2 lg:gap-5 ">
+          <aside className="w-full sm:w-10/12 md:w-8/12 lg:w-full" data-aos="fade-up-right">
+            <figure className="w-full h-[545px] relative">
+              <Image
+                src={'/images/maintenance-illustration.svg'}
+                layout="fill"
+                objectFit="fill"
+                alt='server maintenance'
+              />
+            </figure>
+          </aside>
+          <aside className="grid gap-12 place-items-center" data-aos="fade-up-left">
+            <div className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left">
+              <SectionSentence
+                badge="SOFTWARE/HARDWARE IMPLEMENTATION & IT SUPPORT"
+                title="Deploy new solutions to streamline your workflows"
+                paragraph="Net-new solutions to make your teams life easier"
+              />
+            </div>
+            <div className="grid gap-6 w-full place-items-end md:w-8/12 lg:w-full">
+              <aside className="grid grid-cols-1 sm:grid-cols-2 gap-5 w-full">
+                <IconListItem icon={<FiDownload />} value='Workstation Management Software' />
+                <IconListItem icon={<FiArrowUp />} value='Mac/PC ' />
+                <IconListItem icon={<FiRefreshCcw />} value='Salesforce' />
+                <IconListItem icon={<FiCheckCircle />} value='Jira' />
+                <IconListItem icon={<FiCheckCircle />} value='Slack' />
+                <IconListItem icon={<FiCheckCircle />} value='Google Suite' />
+                <IconListItem icon={<FiCheckCircle />} value='Software Configuration' />
+                <IconListItem icon={<FiCheckCircle />} value='Content Management Systems' />
+                <IconListItem icon={<FiCheckCircle />} value='Microsoft Office & Apps' />
+                <IconListItem icon={<FiCheckCircle />} value='ChatGPT & AI Tools' />
+              </aside>
+              <TextArrowLink label="Service Detail" href="/service/detail" />
+            </div>
+          </aside>
+        </section>
+
+
+
+
+
         <section className="grid grid-cols-1 place-items-center gap-8 lg:grid-cols-2 lg:gap-5 ">
           <aside className="w-full sm:w-10/12 md:w-8/12 lg:w-full" data-aos="fade-up-right">
             <figure className="w-full h-[315px] relative">
@@ -64,6 +106,11 @@ const Services = () => {
                 />
                  <SmallCardIcon
                   title="Film"
+                  description="Promotional Products"
+                  icon={<FiLayout />}
+                />
+                <SmallCardIcon
+                  title="Social Media"
                   description="Promotional Products"
                   icon={<FiLayout />}
                 />
@@ -110,42 +157,7 @@ const Services = () => {
             </figure>
           </aside>
         </section>
-        <section className="grid grid-cols-1 place-items-center gap-8 lg:grid-cols-2 lg:gap-5 ">
-          <aside className="w-full sm:w-10/12 md:w-8/12 lg:w-full" data-aos="fade-up-right">
-            <figure className="w-full h-[545px] relative">
-              <Image
-                src={'/images/maintenance-illustration.svg'}
-                layout="fill"
-                objectFit="fill"
-                alt='server maintenance'
-              />
-            </figure>
-          </aside>
-          <aside className="grid gap-12 place-items-center" data-aos="fade-up-left">
-            <div className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left">
-              <SectionSentence
-                badge=" IT IMPLEMENTATION & SUPPORT"
-                title="Deploy new solutions to streamline your workflows"
-                paragraph="Net-new solutions to make your teams life easier"
-              />
-            </div>
-            <div className="grid gap-6 w-full place-items-end md:w-8/12 lg:w-full">
-              <aside className="grid grid-cols-1 sm:grid-cols-2 gap-5 w-full">
-                <IconListItem icon={<FiDownload />} value='Workstation Management Software' />
-                <IconListItem icon={<FiArrowUp />} value='Mac/PC ' />
-                <IconListItem icon={<FiRefreshCcw />} value='Salesforce' />
-                <IconListItem icon={<FiCheckCircle />} value='Jira' />
-                <IconListItem icon={<FiCheckCircle />} value='Slack' />
-                <IconListItem icon={<FiCheckCircle />} value='Google Suite' />
-                <IconListItem icon={<FiCheckCircle />} value='Software Configuration' />
-                <IconListItem icon={<FiCheckCircle />} value='Content Management Systems' />
-                <IconListItem icon={<FiCheckCircle />} value='Microsoft Office & Apps' />
-                <IconListItem icon={<FiCheckCircle />} value='ChatGPT & AI Tools' />
-              </aside>
-              <TextArrowLink label="Service Detail" href="/service/detail" />
-            </div>
-          </aside>
-        </section>
+        
       
         <section className="grid grid-cols-1 place-items-center gap-8 lg:grid-cols-2 lg:gap-5 ">
           <aside className="w-full sm:w-10/12 md:w-8/12 lg:w-full" data-aos="fade-up-right">
