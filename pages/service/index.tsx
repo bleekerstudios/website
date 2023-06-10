@@ -141,7 +141,7 @@ const Services = () => {
                   title="Desktop App Development"
                 />
                 <CardListIcon icon={<FiGlobe />} title="Web Development" />
-                <CardListIcon icon={<FiGlobe />} title="UX Design" />
+                <CardListIcon icon={<FiLayout />} title="UX Design" />
               </aside>
                {/* <TextArrowLink label="Service Detail" href="/service/detail" /> */}
             </div>
@@ -180,12 +180,12 @@ const Services = () => {
             </div>
             <div className="grid gap-6 w-full place-items-end md:w-8/12 lg:w-full">
               <aside className="grid grid-cols-1 sm:grid-cols-2 gap-5 w-full">
-              <IconListItem icon={<FiDownload />} value='Software Training' />
-              <IconListItem icon={<FiDownload />} value='Technical Enablement' />
+              <IconListItem icon={<FiArrowUp />} value='Software Training' />
+              <IconListItem icon={<FiArrowUp />} value='Technical Enablement' />
                 <IconListItem icon={<FiDownload />} value='Software Sale Negotation' />
-                <IconListItem icon={<FiArrowUp />} value='Software Evaluation' />
+                <IconListItem icon={<FiDownload />} value='Software Evaluation' />
                 <IconListItem icon={<FiRefreshCcw />} value='Audit & Consolidation' />
-                <IconListItem icon={<FiCheckCircle />} value='Cost-Benefit Analysis' />
+                <IconListItem icon={<FiRefreshCcw />} value='Cost-Benefit Analysis' />
               </aside>
               {/* <TextArrowLink label="Service Detail" href="/service/detail" /> */}
             </div>
