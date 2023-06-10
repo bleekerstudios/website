@@ -15,7 +15,7 @@ const Quote = () => {
           <aside className="w-full sm:w-10/12 md:w-8/12 grid grid-cols-1 place-items-center gap-12 lg:w-full lg:place-items-start" data-aos="fade-down-right">
             <div className="text-center lg:text-left">
               <PageSentence
-                title="Tell us about your problem and how we can help"
+                title="Tell us about your problem and we'll work with you to get it resolved"
                 description="We are happy to help you, tell us what is the problem with your company, and we are ready to answer these problems. It usually takes a few minutes for us to respond."
                 badge="CONNECT WITH US"
               />
