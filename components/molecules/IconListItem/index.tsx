@@ -1,5 +1,7 @@
 import Text from 'components/atoms/Text'
 import React from 'react'
+import { SiSalesforce } from 'react-icons/fa'
+
 interface IconListItemProps {
   label?: string
   value: string
