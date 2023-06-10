@@ -38,7 +38,7 @@ const Services = () => {
           <aside className="w-full sm:w-10/12 md:w-8/12 lg:w-full" data-aos="fade-up-right">
             <figure className="w-full h-[545px] relative">
               <Image
-                src={'/images/blog-illustration.svg'}
+                src={'/images/maintenance-illustration.svg'}
                 layout="fill"
                 objectFit="fill"
                 alt='server maintenance'
@@ -164,14 +164,14 @@ const Services = () => {
       
         <section className="grid grid-cols-1 place-items-center gap-8 lg:grid-cols-2 lg:gap-5 ">
           <aside className="w-full sm:w-10/12 md:w-8/12 lg:w-full" data-aos="fade-up-right">
-            <figure className="w-full h-[545px] relative">
+           {/* <figure className="w-full h-[545px] relative">
               <Image
-                src={'/images/maintenance-illustration.svg'}
+                src={''}
                 layout="fill"
                 objectFit="fill"
                 alt='server maintenance'
               />
-            </figure>
+  </figure> */}
           </aside>
           <aside className="grid gap-12 place-items-center" data-aos="fade-up-left">
             <div className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left">
