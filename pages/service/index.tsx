@@ -66,6 +66,16 @@ const Services = () => {
               <TextArrowLink label="Service Detail" href="/service/detail" />
             </div>
           </aside>
+          <aside className="w-full sm:w-10/12 md:w-8/12 lg:w-full" data-aos="fade-up-right">
+            <figure className="w-full h-[315px] relative">
+              <Image
+                src={'/images/ui-design-illustration.svg'}
+                layout="fill"
+                objectFit="fill"
+                alt='UI Design'
+              />
+            </figure>
+          </aside>
           <aside className="grid gap-12 place-items-center" data-aos="fade-up-left">
             <div className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left">
               <SectionSentence
