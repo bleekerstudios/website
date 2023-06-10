@@ -19,6 +19,8 @@ import CardListIcon from 'components/molecules/Card/CardListIcon'
 import TextArrowLink from 'components/molecules/TextArrowLink'
 import IconListItem from 'components/molecules/IconListItem'
 import FeatureCard from 'components/molecules/Card/FeatureCard'
+import { FeatureCardProps } from 'components/molecules/Card/FeatureCard'
+
 const Services = () => {
   return (
     <>
