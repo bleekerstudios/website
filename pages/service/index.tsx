@@ -12,7 +12,6 @@ import {
   FiGlobe,
   FiInstagram,
   FiLayout,
-  FiLinkedin,
   FiMonitor,
   FiRefreshCcw,
   FiSmartphone,
@@ -109,7 +108,7 @@ const Services = () => {
                 />
                 <SmallCardIcon
                   title="Advertising"
-                  description="SEO | Google Adwords | Marketo"
+                  description="SEO | Google Adwords | Marketo | Meta Ads"
                   icon={<FiArrowUp />}
                 />
                  <SmallCardIcon
@@ -119,7 +118,7 @@ const Services = () => {
                 />
                 <SmallCardIcon
                   title="Social Media"
-                  description={<FiTwitter/>}{<FiInstagram/>}{<FiLinkedin/>}
+                  description="Twitter | Instagram | LinkedIn | Tiktok"
                   icon={<FiSmartphone />}
                 />
               </aside>
