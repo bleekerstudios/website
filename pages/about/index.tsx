@@ -63,7 +63,25 @@ const About = () => {
 
           </div>
         </div>
-        <aside
+      
+      </section>
+
+      <section className="grid place-items-center gap-16">
+        
+     {/* <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 place-items-center">*/}
+        <aside className="w-full" data-aos="fade-down-right">
+          <div className="w-full h-[480px] relative">
+            <Image
+              src={'images/maps.svg'}
+              layout="fill"
+              objectFit="contain"
+              quality={80}
+              alt=""
+              /> 
+
+          </div>   
+        </aside>
+         <aside
           className="text-center sm:w-10/12 md:w-8/12 lg:w-full lg:text-left"
           data-aos="fade-up-left"
         >
@@ -73,28 +91,12 @@ const About = () => {
             description={``}
           />
         </aside>
-      </section>
-      {/*<section className="grid place-items-center gap-16">
         
-      <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 place-items-center">
-        <aside className="w-full" data-aos="fade-down-right">
-          {/*<div className="w-full h-[480px] relative">
-            {/*<Image
-              src={''}
-              layout="fill"
-              objectFit="contain"
-              quality={80}
-              alt=""
-              
-
-          </div>   /> 
-        </aside>
-        
-      </section> */}
+      </section> 
         
         
         
-        {/*
+        { /*
         <div
           className="sm:w-10/12 md:w-8/12 lg:w-6/12 2xl:w-5/12 text-center"
           data-aos="zoom-in-up"
