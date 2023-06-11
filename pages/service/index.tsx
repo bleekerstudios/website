@@ -108,7 +108,7 @@ const Services = () => {
                 />
                 <SmallCardIcon
                   title="Advertising"
-                  description="SEO | Google Adwords | Marketo | Meta Ads"
+                  description="SEO | Google Adwords | Marketo "
                   icon={<FiArrowUp />}
                 />
                  <SmallCardIcon
@@ -118,7 +118,7 @@ const Services = () => {
                 />
                 <SmallCardIcon
                   title="Social Media"
-                  description="Twitter | Instagram | LinkedIn | Tiktok"
+                  description="Twitter | Instagram | LinkedIn"
                   icon={<FiSmartphone />}
                 />
               </aside>
