@@ -18,7 +18,7 @@ const About = () => {
         >
            <div className="w-full h-[480px] relative">
             <Image
-              src={'/images/avatar.svg'}
+              src={'/images/17.svg'}
               layout="fill"
               objectFit="contain"
               quality={80}
