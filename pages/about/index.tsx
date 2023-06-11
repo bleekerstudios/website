@@ -63,7 +63,7 @@ const About = () => {
         
       <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 place-items-center">
         <aside className="w-full" data-aos="fade-down-right">
-          <div className="w-full h-[480px] relative">
+          {/*<div className="w-full h-[480px] relative">
             {/*<Image
               src={''}
               layout="fill"
@@ -71,8 +71,8 @@ const About = () => {
               quality={80}
               alt=""
               
-  /> */}
-          </div>
+
+          </div>   /> */}
         </aside>
         <aside
           className="text-center sm:w-10/12 md:w-8/12 lg:w-full lg:text-left"
