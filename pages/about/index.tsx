@@ -14,14 +14,14 @@ const About = () => {
       <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 place-items-center">
         <aside className="w-full" data-aos="fade-down-right">
           <div className="w-full h-[480px] relative">
-            <Image
+            {/* <Image
               src={''}
               layout="fill"
               objectFit="contain"
               quality={80}
               alt=""
               
-            />
+  /> */}
           </div>
         </aside>
         <aside
@@ -64,14 +64,14 @@ const About = () => {
       <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 place-items-center">
         <aside className="w-full" data-aos="fade-down-right">
           <div className="w-full h-[480px] relative">
-            <Image
+            {/*<Image
               src={''}
               layout="fill"
               objectFit="contain"
               quality={80}
               alt=""
               
-            />
+  /> */}
           </div>
         </aside>
         <aside
