@@ -15,7 +15,7 @@ const About = () => {
         <aside className="w-full" data-aos="fade-down-right">
           <div className="w-full h-[480px] relative">
             <Image
-              src={'/images/garden.jpeg'}
+              src={'<div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Bleeker%20St,%20New%20York,%20NY+(Bleeker%20Studios)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html">measure distance on map</a></iframe></div>'}
               layout="fill"
               objectFit="contain"
               quality={80}
