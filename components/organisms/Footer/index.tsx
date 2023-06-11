@@ -32,11 +32,11 @@ const Footer = () => {
               <Text value="SERVICES" textStyle="FooterLinkGroupTitle" />
               <div className="space-y-[10px]">
 
-              <NavLink value="IT Implementation & Support" href="/service/detail" />
-                <NavLink value="Media" href="/service/detail" />
-                <NavLink value="Development" href="/service/detail" />
+              <NavLink value="IT Implementation & Support" href="/service" />
+                <NavLink value="Media" href="/service" />
+                <NavLink value="Development" href="/service" />
               
-                <NavLink value="Education & Tech Stack Audit" href="/service/detail" />
+                <NavLink value="Education & Tech Stack Audit" href="/service" />
                 
                 
               
