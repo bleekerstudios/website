@@ -15,7 +15,7 @@ const About = () => {
         <aside className="w-full" data-aos="fade-down-right">
           <div className="w-full h-[480px] relative">
             <Image
-              src={'/images/dotworld.svg'}
+              src={'/images/world-map.svg'}
               layout="fill"
               objectFit="contain"
               quality={80}
@@ -30,7 +30,7 @@ const About = () => {
         >
           <PageSentence
             badge="ABOUT"
-            title="Headquarted in Manhattan, NY, Bleeker Studiios partners with orgnaizations across the globe."
+            title="Headquarted in Manhattan, NY, Bleeker Studios partners with orgnaizations across the globe."
             description={`Sofi Cherif`}
           />
         </aside>
