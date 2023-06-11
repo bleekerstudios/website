@@ -16,27 +16,26 @@ const About = () => {
           className="text-center sm:w-10/12 md:w-8/12 lg:w-full lg:text-left"
           data-aos="fade-up-left"
         >
-          <PageSentence
-            badge="ABOUT"
-            title="Bleeker Studios"
-            description={`We actively listen to your needs and are determined to align on a solution that makes sense for your specific business needs. We strive to deliver a best in class partner experience`}
-          />
-        </aside>
-        
-        
-        
-        
-        <aside className="w-full" data-aos="fade-down-right">
-         {/* <div className="w-full h-[480px] relative">
-            {/* <Image
+          <Image
               src={''}
               layout="fill"
               objectFit="contain"
               quality={80}
-              alt=""
-              
-  /> 
-  </div> */}
+              alt=""  />
+        </aside>
+        
+      
+        
+        <aside className="w-full" data-aos="fade-down-right">
+         <div className="w-full h-[480px] relative">
+            
+              <PageSentence
+            badge="ABOUT"
+            title="Bleeker Studios"
+            description={`We actively listen to your needs and are determined to align on a solution that makes sense for your specific business needs. We strive to deliver a best in class partner experience`}
+          />
+
+  </div> 
         </aside>
         
       </section>
@@ -66,9 +65,9 @@ const About = () => {
       
       </section>
 
-      <section className="grid place-items-center gap-16">
+     {/* <section className="grid place-items-center gap-16"> */}
         
-     {/* <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 place-items-center">*/}
+     <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 place-items-center">
         <aside className="w-full" data-aos="fade-down-right">
           <div className="w-full h-[480px] relative">
             <Image
