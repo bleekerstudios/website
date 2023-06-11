@@ -17,7 +17,7 @@ const About = () => {
           data-aos="fade-up-left"
         >
           <Image
-              src={''}
+              src={'images/about-illustration-2.webp'}
               layout="fill"
               objectFit="contain"
               quality={80}
