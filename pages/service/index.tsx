@@ -10,10 +10,13 @@ import {
   FiCheckCircle,
   FiDownload,
   FiGlobe,
+  FiInstagram,
   FiLayout,
+  FiLinkedin,
   FiMonitor,
   FiRefreshCcw,
   FiSmartphone,
+  FiTwitter,
 } from 'react-icons/fi'
 import SmallCardIcon from 'components/molecules/Card/SmallCardIcon'
 import CardListIcon from 'components/molecules/Card/CardListIcon'
@@ -29,7 +32,7 @@ const Services = () => {
           <div className="text-center sm:w-10/12 md:w-8/12 lg:w-6/12">
             <PageSentence
               badge="SERVICES"
-              title="Overview of services we've implemented to solve our partners problems"
+              title="Solutions we've implemented to solve our partners problems"
             />
           </div>
         </section>
@@ -94,29 +97,29 @@ const Services = () => {
               <SectionSentence
                 badge="MEDIA"
                 title="Expand your digital footprint"
-                paragraph="Deliever best in class content that appeal to the masses"
+                paragraph="Deliever best in class content that appeals to the masses"
               />
             </div>
             <div className="grid gap-6 w-full place-items-end md:w-8/12 lg:w-full">
               <aside className="w-full grid grid-cols-1 sm:grid-cols-2 gap-5">
                 <SmallCardIcon
                   title="Design"
-                  description="Create a modern design for your idea."
+                  description="Logos | Promotional Products | Branding"
                   icon={<FiLayout />}
                 />
                 <SmallCardIcon
                   title="Advertising"
-                  description="Promotional Products"
+                  description="SEO | Google Adwords | Marketo"
                   icon={<FiArrowUp />}
                 />
                  <SmallCardIcon
                   title="Film"
-                  description="Promotional Products"
+                  description="Youtube | Editing | Commercials"
                   icon={<FiCamera />}
                 />
                 <SmallCardIcon
                   title="Social Media"
-                  description="Promotional Products"
+                  description={<FiTwitter/>}{<FiInstagram/>}{<FiLinkedin/>}
                   icon={<FiSmartphone />}
                 />
               </aside>
