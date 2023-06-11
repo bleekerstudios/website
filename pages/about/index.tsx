@@ -22,7 +22,7 @@ const About = () => {
               layout="fill"
               objectFit="contain"
               quality={80}
-              alt="Programmers when coding in their laptop"
+              alt=""
               
             />
           </div>
