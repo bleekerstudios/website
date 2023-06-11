@@ -15,7 +15,7 @@ const About = () => {
         <aside className="w-full" data-aos="fade-down-right">
           <div className="w-full h-[480px] relative">
             <Image
-              src={'/images/working.png'}
+              src={'/images/garden.png'}
               layout="fill"
               objectFit="contain"
               quality={80}
