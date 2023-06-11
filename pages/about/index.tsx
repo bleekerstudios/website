@@ -48,14 +48,14 @@ const About = () => {
         </div>
         <div className="w-full grid gap-14">
           <div data-aos="fade-right">
-            <StatisticList />
+            
           </div>
 
           <LogoList />
 
           <div data-aos="fade-right">
             <StatisticList />
-            
+
           </div>
         </div>
       </section>
