@@ -17,7 +17,7 @@ const About = () => {
           data-aos="fade-up-left"
         >
           <Image
-              src={'images/avatar.svg'}
+              src={''}
               layout="fill"
               objectFit="contain"
               quality={80}
