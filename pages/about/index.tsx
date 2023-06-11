@@ -113,8 +113,8 @@ const About = () => {
             />
           </div>
           
-  </div> */}
-</section> 
+  </div> 
+</section>  */}
     </PageTemplate>
   )
 }
