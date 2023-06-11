@@ -65,7 +65,7 @@ const About = () => {
         <aside className="w-full" data-aos="fade-down-right">
           <div className="w-full h-[480px] relative">
             <Image
-              src={'/images/world-map.svg'}
+              src={''}
               layout="fill"
               objectFit="contain"
               quality={80}
