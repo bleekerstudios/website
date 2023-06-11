@@ -16,12 +16,16 @@ const About = () => {
           className="text-center sm:w-10/12 md:w-8/12 lg:w-full lg:text-left"
           data-aos="fade-up-left"
         >
-          <Image
-              src={'images/about-illustration-2.webp'}
+           <div className="w-full h-[480px] relative">
+            <Image
+              src={'/images/about-illustration.webp'}
               layout="fill"
               objectFit="contain"
               quality={80}
-              alt=""  />
+              alt="Programmers when coding in their laptop"
+              
+            />
+          </div>
         </aside>
         
       
