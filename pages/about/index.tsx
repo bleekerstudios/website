@@ -16,17 +16,17 @@ const About = () => {
           className="text-center sm:w-10/12 md:w-8/12 lg:w-full lg:text-left"
           data-aos="fade-up-left"
         >
-          <div className="w-full h-[480px] relative">
+           {/*<div className="w-full h-[480px] relative">
             
-            <Image
-              src={'images/about-illustration-2.webp'}
+             <Image
+              src={'/images/Group19.svg'}
               layout="fill"
               objectFit="contain"
               quality={80}
               alt=""
-              /> 
+  />  
 
-          </div> 
+          </div>  */} 
         </aside>
         
       
@@ -76,7 +76,7 @@ const About = () => {
         <aside className="w-full" data-aos="fade-down-right">
           <div className="w-full h-[480px] relative">
             <Image
-              src={'images/maps.svg'}
+              src={'/images/maps.svg'}
               layout="fill"
               objectFit="contain"
               quality={80}
