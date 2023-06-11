@@ -24,6 +24,22 @@ const LogoList = () => {
         </div>
         <div className="">
           <Image
+            src={'/images/mongo.svg'}
+            width={120}
+            height="36"
+            alt="mongo logo"
+          />
+        </div>
+        <div className="">
+          <Image
+            src={'/images/clear.svg'}
+            width={120}
+            height="36"
+            alt="forbes logo"
+          />
+        </div>
+        <div className="">
+          <Image
             src={'/images/google-logo.svg'}
             width={120}
             height="36"
