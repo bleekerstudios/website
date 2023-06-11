@@ -30,7 +30,7 @@ const About = () => {
         >
           <PageSentence
             badge="ABOUT"
-            title="Bleeker Studiios strives to deliever a best in class experience"
+            title="Bleeker Studios strives to deliver a best in class experience"
             description={`We actively listen to your needs and are determined to align on a solution that makes sense for your specific business needs`}
           />
         </aside>
