@@ -10,7 +10,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <PageTemplate title="About - Collosal">
+    <PageTemplate title="About - Bleeker Studios">
       <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 place-items-center">
         <aside className="w-full" data-aos="fade-down-right">
           <div className="w-full h-[480px] relative">
@@ -42,7 +42,7 @@ const About = () => {
           data-aos="zoom-in-up"
         >
           <SectionSentence
-            badge="STATISTICS"
+            badge="STATS"
             title="Sofi Cherif testing"
           />
         </div>
@@ -50,6 +50,12 @@ const About = () => {
           <div data-aos="fade-right">
             <StatisticList />
           </div>
+
+          <SectionSentence
+            badge="HISTORY"
+            title="Organizations we've partnered with"
+          />
+          
           <LogoList />
         </div>
       </section>
