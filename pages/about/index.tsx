@@ -17,14 +17,15 @@ const About = () => {
           data-aos="fade-up-left"
         >
            <div className="w-full h-[480px] relative">
-            <Image
+            
+            {/* <Image
               src={''}
               layout="fill"
               objectFit="contain"
               quality={80}
               alt=""
               
-            />
+  /> */}
           </div>
         </aside>
         
