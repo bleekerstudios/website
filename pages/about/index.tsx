@@ -16,17 +16,17 @@ const About = () => {
           className="text-center sm:w-10/12 md:w-8/12 lg:w-full lg:text-left"
           data-aos="fade-up-left"
         >
-           <div className="w-full h-[480px] relative">
+            {/* <div className="w-full h-[480px] relative">
             
-            {/* <Image
+            <Image
               src={''}
               layout="fill"
               objectFit="contain"
               quality={80}
               alt=""
               
-  /> */}
-          </div>
+           /> 
+          </div> */}
         </aside>
         
       
