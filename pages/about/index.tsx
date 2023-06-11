@@ -15,11 +15,11 @@ const About = () => {
         <aside className="w-full" data-aos="fade-down-right">
           <div className="w-full h-[480px] relative">
             <Image
-              src={'/images/world-map.svg'}
+              src={''}
               layout="fill"
               objectFit="contain"
               quality={80}
-              alt="Programmers when coding in their laptop"
+              alt=""
               
             />
           </div>
@@ -30,8 +30,8 @@ const About = () => {
         >
           <PageSentence
             badge="ABOUT"
-            title="Headquarted in Manhattan, NY, Bleeker Studios partners with orgnaizations across the globe."
-            description={``}
+            title="Bleeker Studiios strives to deliever a best in class experience"
+            description={`We actively listen to your needs and are determined to align on a solution that makes sense for your specific business needs`}
           />
         </aside>
       </section>
@@ -60,6 +60,34 @@ const About = () => {
         </div>
       </section>
       <section className="grid place-items-center gap-16">
+        
+      <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 place-items-center">
+        <aside className="w-full" data-aos="fade-down-right">
+          <div className="w-full h-[480px] relative">
+            <Image
+              src={'/images/world-map.svg'}
+              layout="fill"
+              objectFit="contain"
+              quality={80}
+              alt="Programmers when coding in their laptop"
+              
+            />
+          </div>
+        </aside>
+        <aside
+          className="text-center sm:w-10/12 md:w-8/12 lg:w-full lg:text-left"
+          data-aos="fade-up-left"
+        >
+          <PageSentence
+            badge="LOCATION"
+            title="Headquarted in New York, NY. Bleeker Studios partners with orgnaizations across the globe."
+            description={``}
+          />
+        </aside>
+      </section>
+        
+        
+        
         {/*
         <div
           className="sm:w-10/12 md:w-8/12 lg:w-6/12 2xl:w-5/12 text-center"
