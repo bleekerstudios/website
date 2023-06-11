@@ -14,7 +14,7 @@ const NavBrand = () => {
       >
         <Link href={'/'} passHref>
           <div className="w-fit h-fit">
-            <Image src={``} width='135px' height={30} alt='company brand' loading='lazy' />
+            <Image src={'images/bleekerlogo.svg'} width='135px' height={30} alt='company brand' loading='lazy' />
           </div>
         </Link>
       </div>
