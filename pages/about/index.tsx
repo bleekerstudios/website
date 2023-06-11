@@ -31,7 +31,7 @@ const About = () => {
           <PageSentence
             badge="ABOUT"
             title="Headquarted in Manhattan, NY, Bleeker Studios partners with orgnaizations across the globe."
-            description={`Sofi Cherif`}
+            description={``}
           />
         </aside>
       </section>
