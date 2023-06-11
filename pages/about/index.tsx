@@ -42,8 +42,8 @@ const About = () => {
           data-aos="zoom-in-up"
         >
           <SectionSentence
-            badge="STATS"
-            title="Sofi Cherif testing"
+            badge="HISTORY"
+            title="Organizations we've partnered with"
           />
         </div>
         <div className="w-full grid gap-14">
@@ -51,18 +51,12 @@ const About = () => {
             <StatisticList />
           </div>
 
-          <div
-          className="sm:w-10/12 md:w-8/12 lg:w-6/12 2xl:w-5/12 text-center"
-          data-aos="zoom-in-up"
-        >
-          <SectionSentence
-            badge="HISTORY"
-            title="Organizations we've partnered with"
-          />
-        </div>
-          
-          
           <LogoList />
+
+          <div data-aos="fade-right">
+            <StatisticList />
+            
+          </div>
         </div>
       </section>
       <section className="grid place-items-center gap-16">
