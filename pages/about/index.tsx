@@ -12,6 +12,20 @@ const About = () => {
   return (
     <PageTemplate title="About - Bleeker Studios">
       <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 place-items-center">
+      <aside
+          className="text-center sm:w-10/12 md:w-8/12 lg:w-full lg:text-left"
+          data-aos="fade-up-left"
+        >
+          <PageSentence
+            badge="ABOUT"
+            title="Bleeker Studios"
+            description={`We actively listen to your needs and are determined to align on a solution that makes sense for your specific business needs. We strive to delievr a best in class partner experience`}
+          />
+        </aside>
+        
+        
+        
+        
         <aside className="w-full" data-aos="fade-down-right">
          {/* <div className="w-full h-[480px] relative">
             {/* <Image
@@ -24,16 +38,7 @@ const About = () => {
   /> 
   </div> */}
         </aside>
-        <aside
-          className="text-center sm:w-10/12 md:w-8/12 lg:w-full lg:text-left"
-          data-aos="fade-up-left"
-        >
-          <PageSentence
-            badge="ABOUT"
-            title="Bleeker Studios"
-            description={`We actively listen to your needs and are determined to align on a solution that makes sense for your specific business needs. We strive to delievr a best in class partner experience`}
-          />
-        </aside>
+        
       </section>
       <LineDivider />
       <section className="grid place-items-center gap-16">
@@ -58,8 +63,18 @@ const About = () => {
 
           </div>
         </div>
+        <aside
+          className="text-center sm:w-10/12 md:w-8/12 lg:w-full lg:text-left"
+          data-aos="fade-up-left"
+        >
+          <PageSentence
+            badge="LOCATION"
+            title="Headquarted in New York, NY. Bleeker Studios partners with orgnaizations across the globe."
+            description={``}
+          />
+        </aside>
       </section>
-      <section className="grid place-items-center gap-16">
+      {/*<section className="grid place-items-center gap-16">
         
       <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 place-items-center">
         <aside className="w-full" data-aos="fade-down-right">
@@ -72,19 +87,10 @@ const About = () => {
               alt=""
               
 
-          </div>   /> */}
+          </div>   /> 
         </aside>
-        <aside
-          className="text-center sm:w-10/12 md:w-8/12 lg:w-full lg:text-left"
-          data-aos="fade-up-left"
-        >
-          <PageSentence
-            badge="LOCATION"
-            title="Headquarted in New York, NY. Bleeker Studios partners with orgnaizations across the globe."
-            description={``}
-          />
-        </aside>
-      </section>
+        
+      </section> */}
         
         
         
@@ -108,7 +114,7 @@ const About = () => {
           </div>
           
   </div> */}
-      </section>
+</section> 
     </PageTemplate>
   )
 }
