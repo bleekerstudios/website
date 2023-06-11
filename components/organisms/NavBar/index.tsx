@@ -47,7 +47,7 @@ const NavBar = () => {
           >
             <div className="flex flex-col lg:flex-row w-full place-content-between lg:place-items-center">
               <div className="w-full flex flex-row place-content-between place-items-center lg:w-fit">
-                <NavBrand />
+                {/* <NavBrand /> */}
                 <div className="lg:hidden" onClick={() => setIsOpen(!isOpen)}>
                   <div
                     className={`text-white text-2xl ${
