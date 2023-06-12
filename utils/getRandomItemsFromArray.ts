@@ -1,4 +1,7 @@
-const getRandomItemsFromArray = (array:any[], n:number) => {
+
+
+
+{/* const getRandomItemsFromArray = (array:any[], n:number) => {
     const arrayTemp = [...array]
     const result = []
     while(result.length < n) {
@@ -8,4 +11,4 @@ const getRandomItemsFromArray = (array:any[], n:number) => {
     }
     return result
 }
-export default getRandomItemsFromArray
+export default getRandomItemsFromArray */}
