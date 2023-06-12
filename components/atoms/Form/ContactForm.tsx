@@ -84,7 +84,7 @@ function ContactForm() {
         <label className=" text-muted font-normal text-sm leading-5 select-none">Message</label>
 
         <textarea
-          className="w-full bg-transparent border-borderLight text-white text-opacity-40 px-4 py-2 rounded focus:bg-light border     focus:border-white focus:border-opacity-30"
+          className="w-full bg-transparent border-borderLight text-white text-opacity-40 px-16 py-8 rounded focus:bg-light border     focus:border-white focus:border-opacity-30"
           id="message"
           name="message"
           onChange={handleOnChange}
@@ -92,17 +92,16 @@ function ContactForm() {
           value={inputs.message}
         />
         
-      
 
-        <Button value={`Send Message`}>
-        <button type="submit" disabled={status.submitting}>
+        
+        <button type="submit" disabled={status.submitting} className="bg-primary px-4 py-4 rounded text-white hover:brightness-90  ">
           {!status.submitting
             ? !status.submitted
-              ? 'Submit'
+              ? 'Send Message'
               : 'Submitted'
             : 'Submitting...'}
-        </button>
-        </Button>
+         </button>
+        
       </form>
       {status.info.error && (
         <div className="error">Error: {status.info.msg}</div>
