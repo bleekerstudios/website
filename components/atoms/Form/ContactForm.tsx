@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Button from '../Button';
 import axios from 'axios';
-import fetch from 'node-fetch';
 import InputGroup from 'components/molecules/FormGroup/InputGroup';
 
 
