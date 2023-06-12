@@ -1,3 +1,5 @@
+{/*}
+
 import LineDivider from 'components/atoms/LineDivider'
 import FaqTabbar from 'components/molecules/FaqTabbar'
 import PageSentence from 'components/molecules/PageSentence'
@@ -119,4 +121,4 @@ const Faq = () => {
   )
 }
 
-export default Faq
+export default Faq */}
