@@ -5,6 +5,8 @@ import React, { ReactNode, useEffect } from 'react'
 import Container from 'components/templates/Container'
 import Head from 'next/head'
 import useGetBrowserName from 'hooks/useGetBrowserName'
+import axios from 'axios';
+
 interface PageTemplateProps {
   children: ReactNode[] | JSX.Element
   title?: string

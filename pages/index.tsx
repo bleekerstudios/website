@@ -10,6 +10,8 @@ import TestimonialList from 'components/organisms/TestimonialList'
 import PageTemplate from 'components/templates/PageTemplate'
 import Image from 'next/image'
 import React from 'react'
+import axios from 'axios';
+
 import { FiFigma, FiCode, FiBox, FiTrendingUp, FiShare } from 'react-icons/fi'
 const Home = () => {
   return (
