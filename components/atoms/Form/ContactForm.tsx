@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import axios from 'axios';
 import Button from '../Button';
 import InputGroup from 'components/molecules/FormGroup/InputGroup';
 
