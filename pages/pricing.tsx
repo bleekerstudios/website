@@ -48,7 +48,7 @@ const Pricing = () => {
         >
           <PageSentence
             badge="PRICING"
-            title="What do you need? Choose a service that can help you"
+            title="Our pricing is always a flat fee. We believe hourly rates start the partnership off the wrong foot and often misaligns incentives."
           />
         </div>
       </section>
@@ -56,37 +56,30 @@ const Pricing = () => {
       <section className="w-full grid grid-cols-1 gap-10 sm:grid-cols-2 sm:gap-5 lg:grid-cols-3">
         <div data-aos="fade-up">
           <PricingCard
-            price="1200$"
-            title="UI Design"
+            price="Step 1"
+            title="Architect"
             features={[
-              '10 design pages',
-              'Well-documented',
-              '4 revisions',
-              '$100/additional page',
+              'No Cost',
+              
             ]}
           />
         </div>
         <div data-aos="fade-up">
           <PricingCard
-            price="5000$"
-            title="Development"
+            price="Step 2"
+            title="Design, Develop + Integrate"
             features={[
-              'Web & Mobile',
-              'Well-documented',
-              '8 revisions',
-              '$1000/additional page',
+              'Determined by number of solutions & complexity of solution'
             ]}
           />
         </div>
         <div data-aos="fade-up">
           <PricingCard
-            price="3000$"
-            title="Maintenance"
+            price="Step 3"
+            title="Deploy & Educate"
             features={[
-              'Daily backup',
-              '3 hours of maintenance',
-              'Including fixing',
-              '$50/additional hour',
+              '30 Day Support Included',
+              
             ]}
           />
         </div>

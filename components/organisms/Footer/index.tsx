@@ -47,12 +47,12 @@ const Footer = () => {
               <div className="space-y-[10px]">
                 <NavLink value="About" href="/about" />
                 <NavLink value="Contact" href="/contact" />
-                <NavLink value="Pricing" href="/pricing" />
+               {/*} <NavLink value="Pricing" href="/pricing" /> */}
                 <NavLink value="Send Message" href="/quote" />
                {/* <NavLink value="Privacy Policy" href="/privacy-policy" /> */}
                  {/*<NavLink value="Term of Service" href="/term-of-service" /> */}
                 {/*<NavLink value="Jobs" href="/jobs" /> */}
-                <NavLink value="Blogs" href="/blog" />
+                {/* <NavLink value="Blogs" href="/blog" /> */} 
                 
               </div>
             </div>

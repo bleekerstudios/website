@@ -6,6 +6,7 @@ import PageSentence from 'components/molecules/PageSentence'
 import PageTemplate from 'components/templates/PageTemplate'
 import React from 'react'
 import { FiMail, FiPhoneCall } from 'react-icons/fi'
+import ContactForm from 'components/atoms/Form/ContactForm'
 
 const Contact = () => {
   return (
@@ -34,13 +35,12 @@ const Contact = () => {
           </aside>
           <aside className="w-full sm:w-10/12 md:w-8/12 lg:w-full lg:flex lg:justify-end" data-aos="fade-down-left">
             <div className="grid grid-cols-1 gap-7 p-6 md:p-9 bg-light rounded-md lg:w-10/12 ">
+            <ContactForm/>
               <div className="grid grid-cols-2 gap-4">
-                <InputGroup label="Name" />
-                <InputGroup label="Email" />
+                
               </div>
-              <InputGroup label="Subject" />
-              <TextAreaGroup label="Message" />
-              <Button value="Send Message" />
+              
+              
             </div>
           </aside>
         </section>

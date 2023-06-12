@@ -6,6 +6,7 @@ import TextAreaGroup from 'components/molecules/FormGroup/TextAreaGroup'
 import PageSentence from 'components/molecules/PageSentence'
 import PageTemplate from 'components/templates/PageTemplate'
 import React from 'react'
+import ContactForm from 'components/atoms/Form/ContactForm'
 
 const Quote = () => {
   return (
@@ -16,14 +17,14 @@ const Quote = () => {
             <div className="text-center lg:text-left">
               <PageSentence
                 title="Tell us about your problem and we'll work with you to get it resolved"
-                description="We are happy to help you, tell us what is the problem with your company, and we are ready to answer these problems. It usually takes a few minutes for us to respond."
+                description="Bleeker Studios leverages a modern framework for solving our customers problems. Check it out below."
                 badge="CONNECT WITH US"
               />
             </div>
             <div className="w-fit">
               <ButtonLink
-                value="Ask Us"
-                href="/faq"
+                value="How We Work"
+                href="/how-we-work"
                 color="white"
                 style="light"
               />
@@ -31,23 +32,22 @@ const Quote = () => {
           </aside>
           <aside className="w-full sm:w-10/12 md:w-8/12 lg:w-full lg:flex lg:justify-end" data-aos="fade-up-left">
             <div className="grid grid-cols-1 gap-7 p-6 md:p-9 bg-light rounded-md lg:w-10/12 ">
+            <ContactForm/>
               <div className="grid grid-cols-2 gap-4">
-                <InputGroup label="Name" />
-                <InputGroup label="Email" />
+               
+               
+              
+              
               </div>
               <div className="grid grid-cols-2 gap-4">
-                <InputGroup label="Company" />
-                <SelectGroup
-                  label="Company Size"
-                  options={[
-                    { label: 'Small', value: 'small' },
-                    { label: 'Medium', value: 'medium' },
-                    { label: 'Large', value: 'large' },
-                  ]}
-                />
+                
+              
+                
+                
               </div>
-              <TextAreaGroup label="Tell Us Your Problem" />
-              <Button value="Send Message" />
+              
+              
+              
             </div>
           </aside>
         </section>
