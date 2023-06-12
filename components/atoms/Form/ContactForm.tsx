@@ -5,6 +5,8 @@ import InputGroup from 'components/molecules/FormGroup/InputGroup';
 
 
 function ContactForm() {
+
+  
   const [status, setStatus] = useState({
     submitted: false,
     submitting: false,
@@ -26,9 +28,7 @@ function ContactForm() {
         message: '',
       });
     } else {
-      setStatus({
-        info: { error: true, msg: msg },
-      });
+      
     }
   };
   const handleOnChange = (e) => {
@@ -67,9 +67,9 @@ function ContactForm() {
       
       <form onSubmit={handleOnSubmit}>
 
-        <InputGroup label="Email" className="w-full bg-transparent border-borderLight text-white text-opacity-40 px-4 py-2 rounded focus:bg-light border      focus:border-white focus:border-opacity-30">
-        <label htmlFor="email">Email</label>
+        <label htmlFor="email" className="text-muted font-normal text-sm leading-5 select-none">Email</label>
         <input
+        className="w-full bg-transparent border-borderLight text-white text-opacity-40 px-4 py-2 rounded focus:bg-light border   focus:border-white focus:border-opacity-30"
           id="email"
           type="email"
           name="_replyto"
@@ -77,14 +77,14 @@ function ContactForm() {
           required
           value={inputs.email}
         />
-        </InputGroup>
+       
 
 
         
         <label className=" text-muted font-normal text-sm leading-5 select-none">Message</label>
 
         <textarea
-          htmlFor="message"  className="w-full bg-transparent border-borderLight text-white text-opacity-40 px-4 py-2 rounded focus:bg-light border     focus:border-white focus:border-opacity-30"
+          className="w-full bg-transparent border-borderLight text-white text-opacity-40 px-4 py-2 rounded focus:bg-light border     focus:border-white focus:border-opacity-30"
           id="message"
           name="message"
           onChange={handleOnChange}

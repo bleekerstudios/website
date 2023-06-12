@@ -17,6 +17,6 @@
     "noImplicitAny": false,
     "baseUrl": "./"
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "try.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "try.js", "components/atoms/Form/ContactForm.tsx"],
   "exclude": ["node_modules"]
 }
