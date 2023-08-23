@@ -11,7 +11,7 @@ import ContactForm from 'components/atoms/Form/ContactForm'
 const Contact = () => {
   return (
     <>
-      <PageTemplate title='Contact - Collosal'>
+      <PageTemplate title='Contact - BleekerStudios'>
         <section className="grid grid-cols-1 place-items-center gap-10 lg:gap-5 lg:grid-cols-2">
           <aside className="w-full sm:w-10/12 md:w-8/12 grid grid-cols-1 gap-12 sm:place-items-center lg:w-full lg:place-items-start" data-aos="fade-up-right">
             <div className="sm:text-center lg:text-left">
