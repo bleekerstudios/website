@@ -12,11 +12,11 @@ const About = () => {
   return (
     <PageTemplate title="About - Bleeker Studios">
       <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 place-items-center">
-      <aside
+     {/* <aside
           className="text-center sm:w-10/12 md:w-8/12 lg:w-full lg:text-left"
           data-aos="fade-up-left"
         >
-           {/*<div className="w-full h-[480px] relative">
+           <div className="w-full h-[480px] relative">
             
              <Image
               src={'/images/Group19.svg'}
@@ -26,30 +26,19 @@ const About = () => {
               alt=""
   />  
 
-          </div>  */} 
+          </div> 
         </aside>
-        
       
         
-        <aside className="w-full" data-aos="fade-down-right">
-         <div className="w-full h-[480px] relative">
-            
-              <PageSentence
-            badge="ABOUT"
-            title="Bleeker Studios"
-            description={`We take the time to actively listen to your unique business challenges and are committed to collaborating with you to develop solutions that are truly tailored to your needs. Our goal is to provide an exceptional partnership experience, marked by excellent communication and ongoing support.`}
-          />
-
-  </div> 
-        </aside>
-        
-      </section>
+      </section>  */} 
 
       <PageSentence
             badge="ABOUT"
             title="Bleeker Studios"
             description={`We take the time to actively listen to your unique business challenges and are committed to collaborating with you to develop solutions that are truly tailored to your needs. Our goal is to provide an exceptional partnership experience, marked by excellent communication and ongoing support.`}
           />
+          <br/>
+          <br/>
       <LineDivider />
       <section className="grid place-items-center gap-16">
         <div
