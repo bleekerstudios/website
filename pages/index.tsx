@@ -43,7 +43,7 @@ const Home = () => {
           <div data-aos="fade-up">
             <FeatureCard
               title="Solution Design"
-              description="We'll identify your organization's roadblocks and challenges, then engineer a solution uniquely suited for you."
+              description="We'll identify your organization's roadblocks and challenges, then architect a solution uniquely suited for you."
               icon={<FiTrendingUp />}
             />
           </div>
