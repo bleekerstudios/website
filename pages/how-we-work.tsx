@@ -33,7 +33,7 @@ const HowWeWork = () => {
           <SectionSentence
             badge="PHASE 1"
             title={`Define Problems, Gather Requirements, and Architect Solution`}
-            paragraph={"Phase 1; learning about your organization's roadblocks and challenges, we will recommend a tailored solution based on your specific requirements. Once we're aligned on a path forward, we will define the level of effort needed to implement your solution, considering factors such as time and resources"}
+            paragraph={"After learning about your organization's challenges, we will recommend a tailored solution based on your specific requirements. Once we're aligned on a path forward, we will define the level of effort needed to implement your solution, considering factors such as time and resources."}
           />
         </aside>
       </section>
