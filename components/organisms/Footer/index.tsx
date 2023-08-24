@@ -22,7 +22,7 @@ const Footer = () => {
               />
               <Text
 
-                value={`Manhattan, NY`}
+                value={`New York, NY`}
                 textStyle="SectionParagraph"
               />
             </div>
