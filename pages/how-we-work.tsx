@@ -12,7 +12,7 @@ const HowWeWork = () => {
         <div className="sm:w-10/12 md:w-8/12 lg:w-6/12 2xl:w-5/12 text-center" data-aos="zoom-in-up">
           <PageSentence
             badge="HOW WE WORK"
-            title="Our solution framework is a 3 step system built on listening to our partners"
+            title="Our approach is based on a three-step framework that prioritizes active engagement with our partners"
           />
         </div>
       </section>
@@ -33,7 +33,7 @@ const HowWeWork = () => {
           <SectionSentence
             badge="STEP 1"
             title={`Architect`}
-            paragraph={"After learning about your organizations roadblocks & challenges. We will recommend a solution based on your specific requirements. Once aligned on a path forward, we will define the level of effort associated with your solution"}
+            paragraph={"After learning about your organization's roadblocks and challenges, we will work closely with you to recommend a tailored solution based on your specific requirements. Once we're aligned on a path forward, we will define the level of effort needed to implement your solution, considering factors such as time, resources, and costs."}
           />
         </aside>
       </section>
@@ -42,7 +42,7 @@ const HowWeWork = () => {
           <SectionSentence
             badge="STEP 2"
             title={`Design, Develop + Integrate`}
-            paragraph="In this phase we are all systems go. Heads down, laying brick by brick to build out and integrate your desired solution"
+            paragraph="In this stage, we're fully operational, diligently constructing and integrating your chosen solution, piece by piece."
           />
         </aside>
         <aside className="w-full" data-aos="fade-up-left">
@@ -73,7 +73,7 @@ const HowWeWork = () => {
           <SectionSentence
             badge="STEP 3"
             title={`Deploy & Educate `}
-            paragraph="Here is where we get to see the solution come to life. We will create a enablement plan to educate your team on best practices and stay on to support your team while they acclimate to the new tools & services"
+            paragraph="In this phase, the solution evolves from concept to reality. We will formulate a comprehensive enablement plan, designed to educate your team on industry-leading best practices. This ensures not only a smooth transition but also optimal utilization of the new tools and services. Additionally, we will extend our support services to facilitate your team's acclimation to the newly implemented solution, thereby ensuring sustained success"
           />
         </aside>
       </section>
