@@ -31,9 +31,9 @@ const HowWeWork = () => {
         </aside>
         <aside className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left" data-aos="fade-up-left">
           <SectionSentence
-            badge="STEP 1"
-            title={`Architect`}
-            paragraph={"After learning about your organization's roadblocks and challenges, we will work closely with you to recommend a tailored solution based on your specific requirements. Once we're aligned on a path forward, we will define the level of effort needed to implement your solution, considering factors such as time, resources, and costs."}
+            badge="PHASE 1"
+            title={`Define Problems, Gather Requirements, and Architect Solution`}
+            paragraph={"Phase 1; learning about your organization's roadblocks and challenges, we will recommend a tailored solution based on your specific requirements. Once we're aligned on a path forward, we will define the level of effort needed to implement your solution, considering factors such as time and resources"}
           />
         </aside>
       </section>
@@ -42,7 +42,7 @@ const HowWeWork = () => {
           <SectionSentence
             badge="STEP 2"
             title={`Design, Develop + Integrate`}
-            paragraph="In this stage, we're fully operational, diligently constructing and integrating your chosen solution, piece by piece."
+            paragraph="In this phase, we're in full development mode, diligently constructing and integrating your chosen solution, piece by piece."
           />
         </aside>
         <aside className="w-full" data-aos="fade-up-left">
@@ -73,7 +73,7 @@ const HowWeWork = () => {
           <SectionSentence
             badge="STEP 3"
             title={`Deploy & Educate `}
-            paragraph="In this phase, the solution evolves from concept to reality. We will formulate a comprehensive enablement plan, designed to educate your team on industry-leading best practices. This ensures not only a smooth transition but also optimal utilization of the new tools and services. Additionally, we will extend our support services to facilitate your team's acclimation to the newly implemented solution, thereby ensuring sustained success"
+            paragraph="The final phase, where the solution evolves from concept to reality. We will formulate a comprehensive enablement plan, designed to educate your team on industry-leading best practices. This ensures not only a smooth transition but also optimal utilization of the new tools and services. Additionally, we will extend our support services to facilitate your team's acclimation to the newly implemented solution, thereby ensuring sustained success"
           />
         </aside>
       </section>

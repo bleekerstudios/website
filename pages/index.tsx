@@ -23,9 +23,9 @@ const Home = () => {
         >
           <div className="w-10/12 md:w-8/12 text-center">
             <PageSentence
-              title="Focused on solving your organization's largest roadblocks"
-              description=""
-              badge="Bleeker Studios"
+              title="Bleeker Studios"
+              description="Focused on Solving Your Organization's Largest Roadblocks"
+              badge="Welcome"
             />
           </div>
           <div className="flex flex-col gap-6 sm:flex-row w-full sm:w-fit">
@@ -42,22 +42,22 @@ const Home = () => {
         <section className="grid grid-cols-1 gap-5 md:grid-cols-3 mb-16">
           <div data-aos="fade-up">
             <FeatureCard
-              title="Architect"
-              description="We'll work to understand your organizations largest roadblocks and challeges and recommend a solution that is built for you"
+              title="Define Problems, Gather Requirements, and Architect Solution`"
+              description="We'll identify your organization's roadblocks and challenges, then engineer a solution uniquely suited for you."
               icon={<FiTrendingUp />}
             />
           </div>
           <div data-aos="fade-up">
             <FeatureCard
               title="Design, Develop + Integrate"
-              description="We personally oversee the project lifecycle. From inception to development, all the way to deployment"
+              description="We personally oversee the entire project lifecycle, from inception and development to the final stage of deployment."
               icon={<FiCode />}
             />
           </div>
           <div data-aos="fade-up">
             <FeatureCard
               title="Deploy & Educate"
-              description="We'll build a tailored enablement plan to ensure your team understands their new solution, and is set up for success"
+              description="Following deployment, we will construct a tailored enablement plan to ensure that your team understands the new solution and is positioned for success."
               icon={<FiShare />}
             />
           </div>
