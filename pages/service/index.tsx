@@ -31,7 +31,8 @@ const Services = () => {
           <div className="text-center sm:w-10/12 md:w-8/12 lg:w-6/12">
             <PageSentence
               badge="SERVICES"
-              title="Solutions we've implemented to solve our partners problems"
+              title="How We've Solved Our Partners' Challenges"
+              description={`At Bleeker Studios, we pride ourselves on creating custom solutions that tackle real-world challenges faced by our partners. Below are some services that showcase how we can improve operational efficiency, reduce costs, and enhance user experiences:`}
             />
           </div>
         </section>
