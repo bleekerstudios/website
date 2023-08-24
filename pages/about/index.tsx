@@ -29,9 +29,11 @@ const About = () => {
           className="sm:w-10/12 md:w-8/12 lg:w-6/12 2xl:w-5/12 text-center"
           data-aos="zoom-in-up"
         >
-          <SectionSentence
-            badge="Partner Overview"
-            title="We partner with top-tier software providers to make your workflows more efficient and to help you reduce yearly subscription expenses."
+          <PageSentence
+            badge="CLIENTS & PARTNERS"
+            title="Partnership Overview"
+            description={`We partner with top-tier software providers to make your workflows more efficient and to help you reduce yearly subscription expenses.`}
+
           />
         </div>
         <div className="w-full grid gap-14">
@@ -70,8 +72,8 @@ const About = () => {
         >
           <PageSentence
             badge="LOCATION"
-            title="Headquarted in New York, NY. Bleeker Studios partners with orgnaizations across the globe."
-            description={``}
+            title="Based in NY"
+            description={`Headquarted in New York, NY. Bleeker Studios partners with orgnaizations across the globe.`}
           />
         </aside>
         
