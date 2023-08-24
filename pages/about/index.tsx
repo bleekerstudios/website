@@ -37,7 +37,7 @@ const About = () => {
               <PageSentence
             badge="ABOUT"
             title="Bleeker Studios"
-            description={`We actively listen to your needs and are determined to align on a solution that makes sense for your specific business needs. We strive to deliver a best in class partner experience`}
+            description={`We take the time to actively listen to your unique business challenges and are committed to collaborating with you to develop solutions that are truly tailored to your needs. Our goal is to provide an exceptional partnership experience, marked by excellent communication and ongoing support.`}
           />
 
   </div> 
@@ -51,8 +51,8 @@ const About = () => {
           data-aos="zoom-in-up"
         >
           <SectionSentence
-            badge="HISTORY"
-            title="Organizations we've partnered with"
+            badge="Partner Overview"
+            title="We partner with top-tier software providers to make your workflows more efficient and to help you reduce yearly subscription expenses."
           />
         </div>
         <div className="w-full grid gap-14">
