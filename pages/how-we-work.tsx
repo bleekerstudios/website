@@ -12,8 +12,8 @@ const HowWeWork = () => {
         <div className="sm:w-10/12 md:w-8/12 lg:w-6/12 2xl:w-5/12 text-center" data-aos="zoom-in-up">
           <PageSentence
             badge="HOW WE WORK"
-            title="Bleeker Studios Utlizes The Scrum - Agile Framework"
-            description={`Our approach is built on a framework that prioritizes active engagement with our partners in-depth project scoping.`}
+            title="Bleeker Studios Leverages The Agile Framework"
+            description={`Our approach is built on a framework that prioritizes active engagement with our partners, component based architecture, and intentonal design.`}
 
           />
         </div>
