@@ -54,8 +54,8 @@ const Services = () => {
             <div className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left">
               <SectionSentence
                 badge="IT IMPLEMENTATION & SUPPORT"
-                title="Deploy new tools to streamline your workflows"
-                paragraph="Reduce employee overhead, manual processes, and workplace redundancies with low-cost automated solutions. Or deploy solutions to help your employees work faster, smarter, and happier."
+                title="Deploy Tools & Streamline Your Workflows"
+                paragraph="Reduce employee overhead, manual processes, and workplace redundancies with low-cost automated solutions. Or, deploy solutions to help your employees work faster, smarter, and happier."
               />
             </div>
             <div className="grid gap-6 w-full place-items-end md:w-8/12 lg:w-full">
@@ -96,7 +96,7 @@ const Services = () => {
             <div className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left">
               <SectionSentence
                 badge="MEDIA"
-                title="Expand your digital footprint"
+                title="Expand Your Digital Footprint"
                 paragraph="Deliever best in class content that appeals to the masses"
               />
             </div>
@@ -182,7 +182,7 @@ const Services = () => {
             <div className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left">
               <SectionSentence
                 badge="EDUCATION & TECH STACK AUDIT"
-                title="Level up your team"
+                title="Elevate Your Team"
                 paragraph="We'll help train your team on industry best practices, answer questions, and demolish all tech debt. Leaving you with a lean, mission critical, software stack."
               />
             </div>
