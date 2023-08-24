@@ -24,11 +24,11 @@ const ProjectCard = ({
         </div>
         <div className="">
           <ButtonLink
-            value="Detail"
+            value="See Full Video"
             color="white"
             radius="pill"
             style="outline"
-            href="/project/detail"
+            href="https://www.youtube.com/"
           />
         </div>
       </div>

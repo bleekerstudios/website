@@ -28,8 +28,8 @@ const Contact = () => {
               />
               <IconListItem
                 label="Email"
-                value="info@bleekerstudios.com"
-                icon={<FiMail />}
+                value='info@bleekerstudios.com'
+                icon={<FiMail/>}
               />
             </div>
           </aside>

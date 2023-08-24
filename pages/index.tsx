@@ -10,8 +10,13 @@ import TestimonialList from 'components/organisms/TestimonialList'
 import PageTemplate from 'components/templates/PageTemplate'
 import Image from 'next/image'
 import React from 'react'
-
 import { FiFigma, FiCode, FiBox, FiTrendingUp, FiShare } from 'react-icons/fi'
+import TeamCard from 'components/molecules/Card/TeamCard'
+import TestimonialCard from 'components/molecules/Card/TestimonialCard'
+import BlogCard from 'components/molecules/Card/BlogCard'
+import BlogCommentCard from 'components/molecules/Card/BlogCommentCard'
+import BlogAuthorCard from 'components/molecules/Card/BlogAuthorCard'
+import Link from 'next/link'
 const Home = () => {
   return (
     <>
@@ -64,6 +69,21 @@ const Home = () => {
         </section>
         {/* Logo List */}
         <LogoList />
+        
+
+         {/* } <BlogAuthorCard
+            avatarSrc="/images/blog-author-2.webp"
+            name="Alex Berner"
+            job={`UI Designer`}
+            bio={`Night subdue their morning created every light earth very darkness they're you're deep female. Tree sixth divided greater, midst earth forth won't for moved.`}
+  /> */}
+
+
+        
+          
+          
+            
+          
         {/* How We Work */}
         {/* How We Work 
         <section className="grid grid-cols-1 gap-6 sm:gap-8 place-items-center lg:grid-cols-2">
