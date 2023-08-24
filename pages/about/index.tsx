@@ -44,6 +44,12 @@ const About = () => {
         </aside>
         
       </section>
+
+      <PageSentence
+            badge="ABOUT"
+            title="Bleeker Studios"
+            description={`We take the time to actively listen to your unique business challenges and are committed to collaborating with you to develop solutions that are truly tailored to your needs. Our goal is to provide an exceptional partnership experience, marked by excellent communication and ongoing support.`}
+          />
       <LineDivider />
       <section className="grid place-items-center gap-16">
         <div
