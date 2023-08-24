@@ -41,7 +41,7 @@ const HowWeWork = () => {
         <aside className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left" data-aos="fade-up-right">
           <SectionSentence
             badge="PHASE 2"
-            title={`Design, Develop + Integrate`}
+            title={`Develop + Integrate`}
             paragraph="In this phase, we're in full development mode, diligently constructing and integrating your chosen solution, piece by piece."
           />
         </aside>

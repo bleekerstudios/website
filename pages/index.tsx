@@ -49,7 +49,7 @@ const Home = () => {
           </div>
           <div data-aos="fade-up">
             <FeatureCard
-              title="Design, Develop + Integrate"
+              title="Develop + Integrate"
               description="We personally oversee the entire project lifecycle, from inception and development to the final stage of deployment."
               icon={<FiCode />}
             />
