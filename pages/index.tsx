@@ -42,7 +42,7 @@ const Home = () => {
         <section className="grid grid-cols-1 gap-5 md:grid-cols-3 mb-16">
           <div data-aos="fade-up">
             <FeatureCard
-              title="Define Problems, Gather Requirements, and Architect Solution`"
+              title="Solution Design"
               description="We'll identify your organization's roadblocks and challenges, then engineer a solution uniquely suited for you."
               icon={<FiTrendingUp />}
             />

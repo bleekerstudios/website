@@ -32,8 +32,8 @@ const HowWeWork = () => {
         <aside className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left" data-aos="fade-up-left">
           <SectionSentence
             badge="PHASE 1"
-            title={`Define Problems, Gather Requirements, and Architect Solution`}
-            paragraph={"After learning about your organization's challenges, we will recommend a tailored solution based on your specific requirements. Once we're aligned on a path forward, we will define the level of effort needed to implement your solution, considering factors such as time and resources."}
+            title={`Solution Design`}
+            paragraph={"After learning about your organization's challenges, we will recommend a tailored solution based on your specific requirements. Once we're aligned on a path forward, we will begin to architect your solution."}
           />
         </aside>
       </section>
