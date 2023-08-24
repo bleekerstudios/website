@@ -40,7 +40,7 @@ const HowWeWork = () => {
       <section className="grid grid-cols-1 lg:grid-cols-2 place-items-center gap-8 lg:gap-5">
         <aside className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left" data-aos="fade-up-right">
           <SectionSentence
-            badge="STEP 2"
+            badge="PHASE 2"
             title={`Design, Develop + Integrate`}
             paragraph="In this phase, we're in full development mode, diligently constructing and integrating your chosen solution, piece by piece."
           />
@@ -71,9 +71,9 @@ const HowWeWork = () => {
         </aside>
         <aside className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left" data-aos="fade-up-left">
           <SectionSentence
-            badge="STEP 3"
+            badge="PHASE 3"
             title={`Deploy & Educate `}
-            paragraph="The final phase, where the solution evolves from concept to reality. We will formulate a comprehensive enablement plan, designed to educate your team on industry-leading best practices. This ensures not only a smooth transition but also optimal utilization of the new tools and services. Additionally, we will extend our support services to facilitate your team's acclimation to the newly implemented solution, thereby ensuring sustained success"
+            paragraph="Following deployment; We will construct a comprehensive enablement plan, designed to educate your team on best practices, and we will extend our support services to acclimate your team to the newly implemented solution, ensuring sustained success."
           />
         </aside>
       </section>
