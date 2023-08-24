@@ -16,7 +16,7 @@ const Quote = () => {
           <aside className="w-full sm:w-10/12 md:w-8/12 grid grid-cols-1 place-items-center gap-12 lg:w-full lg:place-items-start" data-aos="fade-down-right">
             <div className="text-center lg:text-left">
               <PageSentence
-                title="Tell Us Your Problems Below. We'll Help Find A Solution"
+                title="Tell Us Your Problems And We'll Help Find A Solution"
                 description="Bleeker Studios leverages a modern framework for solving our customers problems. Check it out below."
                 badge="CONNECT WITH US"
               />
